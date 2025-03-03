@@ -1,0 +1,9 @@
+botorch
+pandas
+matplotlib
+seaborn
+pymoo
+pygmo
+genericWrapper4AC @ git+https://github.com/automl/GenericWrapper4AC.git
+pcsparser @ git+https://bitbucket.org/sparkle-ai/pcsparser.git
+robustranking
