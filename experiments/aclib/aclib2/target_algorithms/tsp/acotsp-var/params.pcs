@@ -1,0 +1,51 @@
+##-*- auto-fill-mode: nil -*-
+ants            [1, 100] [20]i
+beta            [0, 20] [1]i
+q0              [0, 1] [0]
+rho             [0.01, 1] [0.9]
+
+var-ants        {none, delta, switch}[none]
+delta-ants      {0.01, 0.05, 0.1, 0.25, 0.5, 1, 2, 5}[0.25]
+switch-ants     [1, 500] [250]i
+start-ants      [1, 100] [20]i
+end-ants        [1, 500] [250]i
+
+var-beta        {none, delta, switch}[none]
+delta-beta      {0.01, 0.02, 0.05, 0.1, 0.2, 0.5, 1.0}[0.05]
+switch-beta     [1, 500] [250]i
+start-beta      [0, 20] [1]i
+end-beta        [0, 5] [1]i
+
+var-q0        {none, delta, switch}[none]
+delta-q0      {0.0001, 0.0002, 0.0005, 0.001, 0.002, 0.005}[0.005]
+switch-q0     [1, 500] [250]i
+start-q0      [0, 1][0]
+end-q0        [0, 1][0]
+
+var-rho        {none, delta, switch}[none]
+delta-rho      {0.001, 0.002, 0.005, 0.01}[0.005]
+switch-rho     [1, 500] [250]i
+start-rho      [0.01, 1][0.9]
+end-rho        [0.01, 1][0.9]
+
+Conditionals:
+ants|var-ants in {none}
+beta|var-beta in {none}
+q0|var-q0 in {none}
+rho|var-rho in {none}
+delta-ants|var-ants in {delta}
+switch-ants|var-ants in {switch}
+start-ants|var-ants  in {delta, switch}
+end-ants|var-ants in {delta, switch}
+delta-beta|var-beta in {delta}
+switch-beta|var-beta in {switch}
+start-beta|var-beta  in {delta, switch}
+end-beta|var-beta in {delta, switch}
+delta-q0|var-q0 in {delta}
+switch-q0|var-q0 in {switch}
+start-q0|var-q0  in {delta, switch}
+end-q0|var-q0 in {delta, switch}
+delta-rho|var-rho in {delta}
+switch-rho|var-rho in {switch}
+start-rho|var-rho  in {delta, switch}
+end-rho|var-rho in {delta, switch}

@@ -1,0 +1,9 @@
+algo = python3 ./target_algorithms/ml/svm/wrapper.py --mem-limit 3200 --max_quality 1 --dataset instances/ml/data/mnist/dataset.np.txt
+execdir = .
+deterministic = 1
+run_obj = quality
+cutoff_time = 1000
+paramfile = ./target_algorithms/ml/svm/params.pcs
+instance_file = ./instances/ml/sets/mnist/training.txt
+test_instance_file = ./instances/ml/sets/mnist/test.txt
+runcount_limit = 500

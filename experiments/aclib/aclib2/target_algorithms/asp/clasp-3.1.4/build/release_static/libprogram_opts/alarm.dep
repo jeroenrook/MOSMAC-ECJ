@@ -1,0 +1,2 @@
+alarm.o: ../../../libprogram_opts/src/alarm.cpp \
+ ../../../libprogram_opts/program_opts/detail/alarm.h

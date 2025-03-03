@@ -1,0 +1,42 @@
+#if !defined(DEFINE_PARAMETER)
+#error Not all necessary macros were defined.
+#endif
+
+#if !defined(DEFINE_OPTION)
+#define DEFINE_OPTIONS(...)
+#endif
+
+DEFINE_OPTIONS (var_types,
+                DEFINE_OPTION(VAR_NONE,"none"), 
+                DEFINE_OPTION(VAR_DELTA, "delta"),
+                DEFINE_OPTION(VAR_SWITCH, "switch"))
+
+DEFINE_OPTIONS_PARAMETER(var_n_ants, "", "var-ants", " [none, delta, switch]", var_types)
+
+DEFINE_PARAMETER(delta_n_ants, "", "delta-ants", "", DEFINE_DOUBLE_PARAMETER)
+DEFINE_PARAMETER(switch_n_ants, "", "switch-ants", "", DEFINE_INTEGER_PARAMETER)
+DEFINE_PARAMETER(end_n_ants, "", "end-ants", "", DEFINE_INTEGER_PARAMETER)
+
+DEFINE_OPTIONS_PARAMETER(var_beta, "", "var-beta", " [none, delta, switch]", var_types)
+DEFINE_OPTIONS_PARAMETER(var_rho, "", "var-rho", " [none, delta, switch]", var_types)
+DEFINE_OPTIONS_PARAMETER(var_q0, "", "var-q0", " [none, delta, switch]", var_types)
+
+DEFINE_PARAMETER(delta_beta, "", "delta-beta", "", DEFINE_DOUBLE_PARAMETER)
+DEFINE_PARAMETER(switch_beta, "", "switch-beta", "", DEFINE_INTEGER_PARAMETER)
+DEFINE_PARAMETER(end_beta, "", "end-beta", "", DEFINE_DOUBLE_PARAMETER)
+
+DEFINE_PARAMETER(delta_rho, "", "delta-rho", "", DEFINE_DOUBLE_PARAMETER)
+DEFINE_PARAMETER(switch_rho, "", "switch-rho", "", DEFINE_INTEGER_PARAMETER)
+DEFINE_PARAMETER(end_rho, "", "end-rho", "", DEFINE_DOUBLE_PARAMETER)
+
+DEFINE_PARAMETER(delta_q0, "", "delta-q0", "", DEFINE_DOUBLE_PARAMETER)
+DEFINE_PARAMETER(switch_q0, "", "switch-q0", "", DEFINE_INTEGER_PARAMETER)
+DEFINE_PARAMETER(end_q0, "", "end-q0", "", DEFINE_DOUBLE_PARAMETER)
+
+#undef DEFINE_PARAMETER
+#undef DEFINE_OPTIONS_PARAMETER
+#undef DEFINE_DOUBLE_PARAMETER
+#undef DEFINE_INTEGER_PARAMETER
+#undef DEFINE_OPTIONS
+#undef DEFINE_OPTION
+

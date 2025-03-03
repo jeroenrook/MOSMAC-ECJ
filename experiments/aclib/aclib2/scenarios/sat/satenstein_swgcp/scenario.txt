@@ -1,0 +1,11 @@
+algo = python3 -u ./target_algorithms/sat/satenstein/wrapper.py --mem-limit 3000 --sat-checker ./target_algorithms/sat/tools/SAT
+execdir = .
+deterministic = 0
+run_obj = runtime
+overall_obj = mean10
+cutoff_time = 5
+instance_file = ./instances/sat/sets/SWGCP_SAT/training.txt
+test_instance_file = ./instances/sat/sets/SWGCP_SAT/test.txt
+feature_file = ./instances/sat/sets/SWGCP_SAT/features.txt
+paramfile = ./target_algorithms/sat/satenstein/params.pcs
+wallclock_limit = 3600

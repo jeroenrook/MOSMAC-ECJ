@@ -1,0 +1,46 @@
+                                clasp-3.x
+              A conflict-driven nogood learning answer set solver 
+                     http://www.cs.uni-potsdam.de/clasp/
+                      http://potassco.sourceforge.net/
+
+OVERVIEW
+  clasp is an answer set solver for (extended) normal and disjunctive logic programs. 
+  It combines the high-level modeling capacities of answer set programming
+  with state-of-the-art techniques from the area of Boolean constraint solving.
+  The primary clasp algorithm relies on conflict-driven nogood learning, 
+  a technique that proved very successful for satisfiability checking (SAT).
+  
+  Detailed information (including a User's manual), source code,
+  and pre-compiled binaries are available at: http://potassco.sourceforge.net/
+ 
+LICENSE
+  clasp is part of the Potassco project hosted at SourceForge.
+  It is distributed under the GNU Public License. See COPYING for
+  details regarding the license.
+  
+NOTES regarding Configurable SAT Solver Challenge (CSSC) 2014
+
+  Solver    : clasp (version: 3.0.4-p8)
+  Contact   : kaufmann@cs.uni-potsdam.de
+  Categories: all
+  Authors   :
+    - Benjamin Kaufmann  (University of Potsdam)
+    - Torsten  Schaub    (University of Potsdam)
+    - Martin   Gebser    (Aalto University/University of Potsdam)
+  Reference : gekasc12c.bib
+
+  Package contents:
+    clasp                   : solver binary (Linux 64-bit statically linked)
+	clasp-source            : directory containing solver source code
+	claspCSSCWrapper.py     : solver wrapper
+	clasp-sat-params-nat.pcs: configuration space with native numerical parameters
+	clasp-sat-params-cat.pcs: configuration space with numerical parameters reduced to categorical
+	gekasc12c.bib           : citation file (bibtex entry)
+
+  Building from source:
+    cd clasp-source
+	./configure.sh
+	cd build/release/
+	make
+	mv bin/clasp ../../../
+

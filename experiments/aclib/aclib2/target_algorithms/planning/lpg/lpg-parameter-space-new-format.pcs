@@ -1,0 +1,104 @@
+avoid_best_action_cycles categorical {0, 1, 2} [0]
+bestfirst categorical {0, 1, 2} [1]
+choose_min_numA_fact categorical {0, 1} [1]
+cri_insertion_add_mutex categorical {0, 1} [0]
+cri_intermediate_levels categorical {0, 1, 2} [1]
+cri_update_iterations integer [0, 100] [0]
+criprecond categorical {4, 5, 6} [6]
+donot_try_suspected_actions categorical {0, 1} [1]
+dynoiseTabLen real [1.0, 5.0] [1.2]
+dynoisecoefnum real [1.0, 5.0] [1.5]
+evaluate_mutex_for_action_remotion categorical {0, 1} [0]
+evaluate_threated_supported_preconds_of_neighb_action categorical {0, 1, 2} [0]
+evaluation_function categorical {0, 1, 2} [1]
+extended_effects_evaluation categorical {0, 1} [0]
+extended_unsupported_goals categorical {0, 1} [0]
+fast_best_action_evaluation categorical {0, 1} [0]
+h categorical {1, 2, 3, 4, 5, 6} [6]
+hpar_cut_neighb categorical {1, 2, 3, 4, 5, 6} [3]
+ichoice categorical {1, 2, 3, 4, 5, 21, 22, 23, 24, 25, 26, 100} [25]
+improve_reachability categorical {0, 1} [0]
+inc_re real [1.0, 2.0] [1.16]
+initializeichoice categorical {0, 1} [0]
+inst_duplicate_param categorical {0, 1} [0]
+k1 real [0.0, 2.0] [1]
+k2 real [0.0, 2.0] [1]
+k3 real [0.0, 2.0] [1]
+k4 real [0.0, 2.0] [1]
+lagrange categorical {0, 1} [0]
+lm_decrme real [1.0E-7, 1.0E-6] [5.0E-7]
+lm_decrprec real [1.0E-7, 1.0E-6] [5.0E-7]
+lm_incrme real [0.0001, 0.005] [0.001]
+lm_incrprec real [0.0001, 0.005] [0.001]
+lm_multilevel categorical {0, 1} [0]
+lpar_cut_neighb categorical {1, 2, 3, 4, 5} [1]
+maxnoise integer [0, 100] [60]
+mutex_and_additive_effects categorical {0, 1} [1]
+ncut integer [50, 150] [100]
+no_cut categorical {0, 1} [0]
+no_insert_threated_act_in_neighb categorical {0, 1} [1]
+no_mutex_with_additive_effects categorical {0, 1} [0]
+no_pruning categorical {0, 1} [0]
+noise real [0, 1] [0.1]
+noise_incr real [1, 2] [1.25]
+nonuniform_random categorical {0, 1} [0]
+not_extended_unsupported_facts categorical {0, 1} [1]
+not_supported_preconds_evaluation categorical {0, 1} [1]
+numrestart integer [1, 20] [9]
+numtry integer [100, 1000] [500]
+relaxed_examination categorical {0, 1} [0]
+relaxed_neighborhood_evaluation categorical {0, 1} [0]
+remove_act_next_step categorical {0, 1} [0]
+reset_extended_unsupported_facts categorical {0, 1, 2, 3} [0]
+ri_list categorical {0, 1} [0]
+static_noise categorical {0, 1} [0]
+stop_remove_act categorical {0, 1} [0]
+tabu_act categorical {0, 1} [1]
+tabu_fct categorical {0, 1} [1]
+tabu_length integer [1, 20] [5]
+triomemory categorical {0, 1, 2} [0]
+twalkplan categorical {0, 1} [0]
+verifyAf categorical {0, 1} [0]
+verifyinit categorical {0, 1} [0]
+vicinato categorical {1, 2, 3, 4} [4]
+walkplan categorical {0, 1} [0]
+weight_mutex_in_relaxed_plan real [0, 2] [1]
+zero_num_A categorical {0, 1} [0]
+inst_with_contraddicting_objects categorical {0, 1} [0]
+
+dynoiseTabLen | static_noise == 0
+dynoisecoefnum | static_noise == 0
+
+hpar_cut_neighb | vicinato == 2
+
+ichoice | initializeichoice == 1
+
+k1 | ichoice == 100
+k2 | ichoice == 100
+k3 | ichoice == 100
+k4 | ichoice == 100
+
+lagrange | h == 6
+
+lm_decrme | lagrange == 1
+lm_decrprec | lagrange == 1
+lm_incrme | lagrange == 1
+lm_incrprec | lagrange == 1
+lm_multilevel | lagrange == 1
+
+lpar_cut_neighb | vicinato == 3
+
+ncut | vicinato == 1
+
+no_cut | vicinato == 4
+
+noise_incr | static_noise == 0
+
+numrestart | bestfirst in {0, 1}
+
+tabu_act | twalkplan == 0 && walkplan == 0
+tabu_fct | twalkplan == 0 && walkplan == 0
+tabu_length | twalkplan == 0 && walkplan == 0
+
+{numrestart = 1, bestfirst = 0}
+{remove_act_next_step == 1 && initializeichoice == 1 && ichoice != 25}

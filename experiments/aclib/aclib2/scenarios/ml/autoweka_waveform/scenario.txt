@@ -1,0 +1,9 @@
+algo = python3 target_algorithms/ml/autoweka/wrapper.py --mem-limit 3000 --dataset waveform --class_index 40 --max_error 2
+execdir = .
+deterministic = 1
+run_obj = quality
+cutoff_time = 9000
+wallclock_limit = 108000
+paramfile = target_algorithms/ml/autoweka/params.pcs
+instance_file = instances/ml/sets/waveform/training.txt
+test_instance_file = instances/ml/sets/waveform/test.txt

@@ -1,0 +1,2000 @@
+x000 categorical {1,0} [0]
+x001 categorical {1,0} [0]
+x002 categorical {1,0} [0]
+x003 categorical {1,0} [0]
+x004 categorical {1,0} [0]
+x005 categorical {1,0} [0]
+x006 categorical {1,0} [0]
+x007 categorical {1,0} [0]
+x008 categorical {1,0} [0]
+x009 categorical {1,0} [0]
+x010 categorical {1,0} [0]
+x011 categorical {1,0} [0]
+x012 categorical {1,0} [0]
+x013 categorical {1,0} [0]
+x014 categorical {1,0} [0]
+x015 categorical {1,0} [0]
+x016 categorical {1,0} [0]
+x017 categorical {1,0} [0]
+x018 categorical {1,0} [0]
+x019 categorical {1,0} [0]
+x020 categorical {1,0} [0]
+x021 categorical {1,0} [0]
+x022 categorical {1,0} [0]
+x023 categorical {1,0} [0]
+x024 categorical {1,0} [0]
+x025 categorical {1,0} [0]
+x026 categorical {1,0} [0]
+x027 categorical {1,0} [0]
+x028 categorical {1,0} [0]
+x029 categorical {1,0} [0]
+x030 categorical {1,0} [0]
+x031 categorical {1,0} [0]
+x032 categorical {1,0} [0]
+x033 categorical {1,0} [0]
+x034 categorical {1,0} [0]
+x035 categorical {1,0} [0]
+x036 categorical {1,0} [0]
+x037 categorical {1,0} [0]
+x038 categorical {1,0} [0]
+x039 categorical {1,0} [0]
+x040 categorical {1,0} [0]
+x041 categorical {1,0} [0]
+x042 categorical {1,0} [0]
+x043 categorical {1,0} [0]
+x044 categorical {1,0} [0]
+x045 categorical {1,0} [0]
+x046 categorical {1,0} [0]
+x047 categorical {1,0} [0]
+x048 categorical {1,0} [0]
+x049 categorical {1,0} [0]
+x050 categorical {1,0} [0]
+x051 categorical {1,0} [0]
+x052 categorical {1,0} [0]
+x053 categorical {1,0} [0]
+x054 categorical {1,0} [0]
+x055 categorical {1,0} [0]
+x056 categorical {1,0} [0]
+x057 categorical {1,0} [0]
+x058 categorical {1,0} [0]
+x059 categorical {1,0} [0]
+x060 categorical {1,0} [0]
+x061 categorical {1,0} [0]
+x062 categorical {1,0} [0]
+x063 categorical {1,0} [0]
+x064 categorical {1,0} [0]
+x065 categorical {1,0} [0]
+x066 categorical {1,0} [0]
+x067 categorical {1,0} [0]
+x068 categorical {1,0} [0]
+x069 categorical {1,0} [0]
+x070 categorical {1,0} [0]
+x071 categorical {1,0} [0]
+x072 categorical {1,0} [0]
+x073 categorical {1,0} [0]
+x074 categorical {1,0} [0]
+x075 categorical {1,0} [0]
+x076 categorical {1,0} [0]
+x077 categorical {1,0} [0]
+x078 categorical {1,0} [0]
+x079 categorical {1,0} [0]
+x080 categorical {1,0} [0]
+x081 categorical {1,0} [0]
+x082 categorical {1,0} [0]
+x083 categorical {1,0} [0]
+x084 categorical {1,0} [0]
+x085 categorical {1,0} [0]
+x086 categorical {1,0} [0]
+x087 categorical {1,0} [0]
+x088 categorical {1,0} [0]
+x089 categorical {1,0} [0]
+x090 categorical {1,0} [0]
+x091 categorical {1,0} [0]
+x092 categorical {1,0} [0]
+x093 categorical {1,0} [0]
+x094 categorical {1,0} [0]
+x095 categorical {1,0} [0]
+x096 categorical {1,0} [0]
+x097 categorical {1,0} [0]
+x098 categorical {1,0} [0]
+x099 categorical {1,0} [0]
+x100 categorical {1,0} [0]
+x101 categorical {1,0} [0]
+x102 categorical {1,0} [0]
+x103 categorical {1,0} [0]
+x104 categorical {1,0} [0]
+x105 categorical {1,0} [0]
+x106 categorical {1,0} [0]
+x107 categorical {1,0} [0]
+x108 categorical {1,0} [0]
+x109 categorical {1,0} [0]
+x110 categorical {1,0} [0]
+x111 categorical {1,0} [0]
+x112 categorical {1,0} [0]
+x113 categorical {1,0} [0]
+x114 categorical {1,0} [0]
+x115 categorical {1,0} [0]
+x116 categorical {1,0} [0]
+x117 categorical {1,0} [0]
+x118 categorical {1,0} [0]
+x119 categorical {1,0} [0]
+x120 categorical {1,0} [0]
+x121 categorical {1,0} [0]
+x122 categorical {1,0} [0]
+x123 categorical {1,0} [0]
+x124 categorical {1,0} [0]
+x125 categorical {1,0} [0]
+x126 categorical {1,0} [0]
+x127 categorical {1,0} [0]
+x128 categorical {1,0} [0]
+x129 categorical {1,0} [0]
+x130 categorical {1,0} [0]
+x131 categorical {1,0} [0]
+x132 categorical {1,0} [0]
+x133 categorical {1,0} [0]
+x134 categorical {1,0} [0]
+x135 categorical {1,0} [0]
+x136 categorical {1,0} [0]
+x137 categorical {1,0} [0]
+x138 categorical {1,0} [0]
+x139 categorical {1,0} [0]
+x140 categorical {1,0} [0]
+x141 categorical {1,0} [0]
+x142 categorical {1,0} [0]
+x143 categorical {1,0} [0]
+x144 categorical {1,0} [0]
+x145 categorical {1,0} [0]
+x146 categorical {1,0} [0]
+x147 categorical {1,0} [0]
+x148 categorical {1,0} [0]
+x149 categorical {1,0} [0]
+x150 categorical {1,0} [0]
+x151 categorical {1,0} [0]
+x152 categorical {1,0} [0]
+x153 categorical {1,0} [0]
+x154 categorical {1,0} [0]
+x155 categorical {1,0} [0]
+x156 categorical {1,0} [0]
+x157 categorical {1,0} [0]
+x158 categorical {1,0} [0]
+x159 categorical {1,0} [0]
+x160 categorical {1,0} [0]
+x161 categorical {1,0} [0]
+x162 categorical {1,0} [0]
+x163 categorical {1,0} [0]
+x164 categorical {1,0} [0]
+x165 categorical {1,0} [0]
+x166 categorical {1,0} [0]
+x167 categorical {1,0} [0]
+x168 categorical {1,0} [0]
+x169 categorical {1,0} [0]
+x170 categorical {1,0} [0]
+x171 categorical {1,0} [0]
+x172 categorical {1,0} [0]
+x173 categorical {1,0} [0]
+x174 categorical {1,0} [0]
+x175 categorical {1,0} [0]
+x176 categorical {1,0} [0]
+x177 categorical {1,0} [0]
+x178 categorical {1,0} [0]
+x179 categorical {1,0} [0]
+x180 categorical {1,0} [0]
+x181 categorical {1,0} [0]
+x182 categorical {1,0} [0]
+x183 categorical {1,0} [0]
+x184 categorical {1,0} [0]
+x185 categorical {1,0} [0]
+x186 categorical {1,0} [0]
+x187 categorical {1,0} [0]
+x188 categorical {1,0} [0]
+x189 categorical {1,0} [0]
+x190 categorical {1,0} [0]
+x191 categorical {1,0} [0]
+x192 categorical {1,0} [0]
+x193 categorical {1,0} [0]
+x194 categorical {1,0} [0]
+x195 categorical {1,0} [0]
+x196 categorical {1,0} [0]
+x197 categorical {1,0} [0]
+x198 categorical {1,0} [0]
+x199 categorical {1,0} [0]
+x200 categorical {1,0} [0]
+x201 categorical {1,0} [0]
+x202 categorical {1,0} [0]
+x203 categorical {1,0} [0]
+x204 categorical {1,0} [0]
+x205 categorical {1,0} [0]
+x206 categorical {1,0} [0]
+x207 categorical {1,0} [0]
+x208 categorical {1,0} [0]
+x209 categorical {1,0} [0]
+x210 categorical {1,0} [0]
+x211 categorical {1,0} [0]
+x212 categorical {1,0} [0]
+x213 categorical {1,0} [0]
+x214 categorical {1,0} [0]
+x215 categorical {1,0} [0]
+x216 categorical {1,0} [0]
+x217 categorical {1,0} [0]
+x218 categorical {1,0} [0]
+x219 categorical {1,0} [0]
+x220 categorical {1,0} [0]
+x221 categorical {1,0} [0]
+x222 categorical {1,0} [0]
+x223 categorical {1,0} [0]
+x224 categorical {1,0} [0]
+x225 categorical {1,0} [0]
+x226 categorical {1,0} [0]
+x227 categorical {1,0} [0]
+x228 categorical {1,0} [0]
+x229 categorical {1,0} [0]
+x230 categorical {1,0} [0]
+x231 categorical {1,0} [0]
+x232 categorical {1,0} [0]
+x233 categorical {1,0} [0]
+x234 categorical {1,0} [0]
+x235 categorical {1,0} [0]
+x236 categorical {1,0} [0]
+x237 categorical {1,0} [0]
+x238 categorical {1,0} [0]
+x239 categorical {1,0} [0]
+x240 categorical {1,0} [0]
+x241 categorical {1,0} [0]
+x242 categorical {1,0} [0]
+x243 categorical {1,0} [0]
+x244 categorical {1,0} [0]
+x245 categorical {1,0} [0]
+x246 categorical {1,0} [0]
+x247 categorical {1,0} [0]
+x248 categorical {1,0} [0]
+x249 categorical {1,0} [0]
+x250 categorical {1,0} [0]
+x251 categorical {1,0} [0]
+x252 categorical {1,0} [0]
+x253 categorical {1,0} [0]
+x254 categorical {1,0} [0]
+x255 categorical {1,0} [0]
+x256 categorical {1,0} [0]
+x257 categorical {1,0} [0]
+x258 categorical {1,0} [0]
+x259 categorical {1,0} [0]
+x260 categorical {1,0} [0]
+x261 categorical {1,0} [0]
+x262 categorical {1,0} [0]
+x263 categorical {1,0} [0]
+x264 categorical {1,0} [0]
+x265 categorical {1,0} [0]
+x266 categorical {1,0} [0]
+x267 categorical {1,0} [0]
+x268 categorical {1,0} [0]
+x269 categorical {1,0} [0]
+x270 categorical {1,0} [0]
+x271 categorical {1,0} [0]
+x272 categorical {1,0} [0]
+x273 categorical {1,0} [0]
+x274 categorical {1,0} [0]
+x275 categorical {1,0} [0]
+x276 categorical {1,0} [0]
+x277 categorical {1,0} [0]
+x278 categorical {1,0} [0]
+x279 categorical {1,0} [0]
+x280 categorical {1,0} [0]
+x281 categorical {1,0} [0]
+x282 categorical {1,0} [0]
+x283 categorical {1,0} [0]
+x284 categorical {1,0} [0]
+x285 categorical {1,0} [0]
+x286 categorical {1,0} [0]
+x287 categorical {1,0} [0]
+x288 categorical {1,0} [0]
+x289 categorical {1,0} [0]
+x290 categorical {1,0} [0]
+x291 categorical {1,0} [0]
+x292 categorical {1,0} [0]
+x293 categorical {1,0} [0]
+x294 categorical {1,0} [0]
+x295 categorical {1,0} [0]
+x296 categorical {1,0} [0]
+x297 categorical {1,0} [0]
+x298 categorical {1,0} [0]
+x299 categorical {1,0} [0]
+x300 categorical {1,0} [0]
+x301 categorical {1,0} [0]
+x302 categorical {1,0} [0]
+x303 categorical {1,0} [0]
+x304 categorical {1,0} [0]
+x305 categorical {1,0} [0]
+x306 categorical {1,0} [0]
+x307 categorical {1,0} [0]
+x308 categorical {1,0} [0]
+x309 categorical {1,0} [0]
+x310 categorical {1,0} [0]
+x311 categorical {1,0} [0]
+x312 categorical {1,0} [0]
+x313 categorical {1,0} [0]
+x314 categorical {1,0} [0]
+x315 categorical {1,0} [0]
+x316 categorical {1,0} [0]
+x317 categorical {1,0} [0]
+x318 categorical {1,0} [0]
+x319 categorical {1,0} [0]
+x320 categorical {1,0} [0]
+x321 categorical {1,0} [0]
+x322 categorical {1,0} [0]
+x323 categorical {1,0} [0]
+x324 categorical {1,0} [0]
+x325 categorical {1,0} [0]
+x326 categorical {1,0} [0]
+x327 categorical {1,0} [0]
+x328 categorical {1,0} [0]
+x329 categorical {1,0} [0]
+x330 categorical {1,0} [0]
+x331 categorical {1,0} [0]
+x332 categorical {1,0} [0]
+x333 categorical {1,0} [0]
+x334 categorical {1,0} [0]
+x335 categorical {1,0} [0]
+x336 categorical {1,0} [0]
+x337 categorical {1,0} [0]
+x338 categorical {1,0} [0]
+x339 categorical {1,0} [0]
+x340 categorical {1,0} [0]
+x341 categorical {1,0} [0]
+x342 categorical {1,0} [0]
+x343 categorical {1,0} [0]
+x344 categorical {1,0} [0]
+x345 categorical {1,0} [0]
+x346 categorical {1,0} [0]
+x347 categorical {1,0} [0]
+x348 categorical {1,0} [0]
+x349 categorical {1,0} [0]
+x350 categorical {1,0} [0]
+x351 categorical {1,0} [0]
+x352 categorical {1,0} [0]
+x353 categorical {1,0} [0]
+x354 categorical {1,0} [0]
+x355 categorical {1,0} [0]
+x356 categorical {1,0} [0]
+x357 categorical {1,0} [0]
+x358 categorical {1,0} [0]
+x359 categorical {1,0} [0]
+x360 categorical {1,0} [0]
+x361 categorical {1,0} [0]
+x362 categorical {1,0} [0]
+x363 categorical {1,0} [0]
+x364 categorical {1,0} [0]
+x365 categorical {1,0} [0]
+x366 categorical {1,0} [0]
+x367 categorical {1,0} [0]
+x368 categorical {1,0} [0]
+x369 categorical {1,0} [0]
+x370 categorical {1,0} [0]
+x371 categorical {1,0} [0]
+x372 categorical {1,0} [0]
+x373 categorical {1,0} [0]
+x374 categorical {1,0} [0]
+x375 categorical {1,0} [0]
+x376 categorical {1,0} [0]
+x377 categorical {1,0} [0]
+x378 categorical {1,0} [0]
+x379 categorical {1,0} [0]
+x380 categorical {1,0} [0]
+x381 categorical {1,0} [0]
+x382 categorical {1,0} [0]
+x383 categorical {1,0} [0]
+x384 categorical {1,0} [0]
+x385 categorical {1,0} [0]
+x386 categorical {1,0} [0]
+x387 categorical {1,0} [0]
+x388 categorical {1,0} [0]
+x389 categorical {1,0} [0]
+x390 categorical {1,0} [0]
+x391 categorical {1,0} [0]
+x392 categorical {1,0} [0]
+x393 categorical {1,0} [0]
+x394 categorical {1,0} [0]
+x395 categorical {1,0} [0]
+x396 categorical {1,0} [0]
+x397 categorical {1,0} [0]
+x398 categorical {1,0} [0]
+x399 categorical {1,0} [0]
+x400 categorical {1,0} [0]
+x401 categorical {1,0} [0]
+x402 categorical {1,0} [0]
+x403 categorical {1,0} [0]
+x404 categorical {1,0} [0]
+x405 categorical {1,0} [0]
+x406 categorical {1,0} [0]
+x407 categorical {1,0} [0]
+x408 categorical {1,0} [0]
+x409 categorical {1,0} [0]
+x410 categorical {1,0} [0]
+x411 categorical {1,0} [0]
+x412 categorical {1,0} [0]
+x413 categorical {1,0} [0]
+x414 categorical {1,0} [0]
+x415 categorical {1,0} [0]
+x416 categorical {1,0} [0]
+x417 categorical {1,0} [0]
+x418 categorical {1,0} [0]
+x419 categorical {1,0} [0]
+x420 categorical {1,0} [0]
+x421 categorical {1,0} [0]
+x422 categorical {1,0} [0]
+x423 categorical {1,0} [0]
+x424 categorical {1,0} [0]
+x425 categorical {1,0} [0]
+x426 categorical {1,0} [0]
+x427 categorical {1,0} [0]
+x428 categorical {1,0} [0]
+x429 categorical {1,0} [0]
+x430 categorical {1,0} [0]
+x431 categorical {1,0} [0]
+x432 categorical {1,0} [0]
+x433 categorical {1,0} [0]
+x434 categorical {1,0} [0]
+x435 categorical {1,0} [0]
+x436 categorical {1,0} [0]
+x437 categorical {1,0} [0]
+x438 categorical {1,0} [0]
+x439 categorical {1,0} [0]
+x440 categorical {1,0} [0]
+x441 categorical {1,0} [0]
+x442 categorical {1,0} [0]
+x443 categorical {1,0} [0]
+x444 categorical {1,0} [0]
+x445 categorical {1,0} [0]
+x446 categorical {1,0} [0]
+x447 categorical {1,0} [0]
+x448 categorical {1,0} [0]
+x449 categorical {1,0} [0]
+x450 categorical {1,0} [0]
+x451 categorical {1,0} [0]
+x452 categorical {1,0} [0]
+x453 categorical {1,0} [0]
+x454 categorical {1,0} [0]
+x455 categorical {1,0} [0]
+x456 categorical {1,0} [0]
+x457 categorical {1,0} [0]
+x458 categorical {1,0} [0]
+x459 categorical {1,0} [0]
+x460 categorical {1,0} [0]
+x461 categorical {1,0} [0]
+x462 categorical {1,0} [0]
+x463 categorical {1,0} [0]
+x464 categorical {1,0} [0]
+x465 categorical {1,0} [0]
+x466 categorical {1,0} [0]
+x467 categorical {1,0} [0]
+x468 categorical {1,0} [0]
+x469 categorical {1,0} [0]
+x470 categorical {1,0} [0]
+x471 categorical {1,0} [0]
+x472 categorical {1,0} [0]
+x473 categorical {1,0} [0]
+x474 categorical {1,0} [0]
+x475 categorical {1,0} [0]
+x476 categorical {1,0} [0]
+x477 categorical {1,0} [0]
+x478 categorical {1,0} [0]
+x479 categorical {1,0} [0]
+x480 categorical {1,0} [0]
+x481 categorical {1,0} [0]
+x482 categorical {1,0} [0]
+x483 categorical {1,0} [0]
+x484 categorical {1,0} [0]
+x485 categorical {1,0} [0]
+x486 categorical {1,0} [0]
+x487 categorical {1,0} [0]
+x488 categorical {1,0} [0]
+x489 categorical {1,0} [0]
+x490 categorical {1,0} [0]
+x491 categorical {1,0} [0]
+x492 categorical {1,0} [0]
+x493 categorical {1,0} [0]
+x494 categorical {1,0} [0]
+x495 categorical {1,0} [0]
+x496 categorical {1,0} [0]
+x497 categorical {1,0} [0]
+x498 categorical {1,0} [0]
+x499 categorical {1,0} [0]
+x500 categorical {1,0} [0]
+x501 categorical {1,0} [0]
+x502 categorical {1,0} [0]
+x503 categorical {1,0} [0]
+x504 categorical {1,0} [0]
+x505 categorical {1,0} [0]
+x506 categorical {1,0} [0]
+x507 categorical {1,0} [0]
+x508 categorical {1,0} [0]
+x509 categorical {1,0} [0]
+x510 categorical {1,0} [0]
+x511 categorical {1,0} [0]
+x512 categorical {1,0} [0]
+x513 categorical {1,0} [0]
+x514 categorical {1,0} [0]
+x515 categorical {1,0} [0]
+x516 categorical {1,0} [0]
+x517 categorical {1,0} [0]
+x518 categorical {1,0} [0]
+x519 categorical {1,0} [0]
+x520 categorical {1,0} [0]
+x521 categorical {1,0} [0]
+x522 categorical {1,0} [0]
+x523 categorical {1,0} [0]
+x524 categorical {1,0} [0]
+x525 categorical {1,0} [0]
+x526 categorical {1,0} [0]
+x527 categorical {1,0} [0]
+x528 categorical {1,0} [0]
+x529 categorical {1,0} [0]
+x530 categorical {1,0} [0]
+x531 categorical {1,0} [0]
+x532 categorical {1,0} [0]
+x533 categorical {1,0} [0]
+x534 categorical {1,0} [0]
+x535 categorical {1,0} [0]
+x536 categorical {1,0} [0]
+x537 categorical {1,0} [0]
+x538 categorical {1,0} [0]
+x539 categorical {1,0} [0]
+x540 categorical {1,0} [0]
+x541 categorical {1,0} [0]
+x542 categorical {1,0} [0]
+x543 categorical {1,0} [0]
+x544 categorical {1,0} [0]
+x545 categorical {1,0} [0]
+x546 categorical {1,0} [0]
+x547 categorical {1,0} [0]
+x548 categorical {1,0} [0]
+x549 categorical {1,0} [0]
+x550 categorical {1,0} [0]
+x551 categorical {1,0} [0]
+x552 categorical {1,0} [0]
+x553 categorical {1,0} [0]
+x554 categorical {1,0} [0]
+x555 categorical {1,0} [0]
+x556 categorical {1,0} [0]
+x557 categorical {1,0} [0]
+x558 categorical {1,0} [0]
+x559 categorical {1,0} [0]
+x560 categorical {1,0} [0]
+x561 categorical {1,0} [0]
+x562 categorical {1,0} [0]
+x563 categorical {1,0} [0]
+x564 categorical {1,0} [0]
+x565 categorical {1,0} [0]
+x566 categorical {1,0} [0]
+x567 categorical {1,0} [0]
+x568 categorical {1,0} [0]
+x569 categorical {1,0} [0]
+x570 categorical {1,0} [0]
+x571 categorical {1,0} [0]
+x572 categorical {1,0} [0]
+x573 categorical {1,0} [0]
+x574 categorical {1,0} [0]
+x575 categorical {1,0} [0]
+x576 categorical {1,0} [0]
+x577 categorical {1,0} [0]
+x578 categorical {1,0} [0]
+x579 categorical {1,0} [0]
+x580 categorical {1,0} [0]
+x581 categorical {1,0} [0]
+x582 categorical {1,0} [0]
+x583 categorical {1,0} [0]
+x584 categorical {1,0} [0]
+x585 categorical {1,0} [0]
+x586 categorical {1,0} [0]
+x587 categorical {1,0} [0]
+x588 categorical {1,0} [0]
+x589 categorical {1,0} [0]
+x590 categorical {1,0} [0]
+x591 categorical {1,0} [0]
+x592 categorical {1,0} [0]
+x593 categorical {1,0} [0]
+x594 categorical {1,0} [0]
+x595 categorical {1,0} [0]
+x596 categorical {1,0} [0]
+x597 categorical {1,0} [0]
+x598 categorical {1,0} [0]
+x599 categorical {1,0} [0]
+x600 categorical {1,0} [0]
+x601 categorical {1,0} [0]
+x602 categorical {1,0} [0]
+x603 categorical {1,0} [0]
+x604 categorical {1,0} [0]
+x605 categorical {1,0} [0]
+x606 categorical {1,0} [0]
+x607 categorical {1,0} [0]
+x608 categorical {1,0} [0]
+x609 categorical {1,0} [0]
+x610 categorical {1,0} [0]
+x611 categorical {1,0} [0]
+x612 categorical {1,0} [0]
+x613 categorical {1,0} [0]
+x614 categorical {1,0} [0]
+x615 categorical {1,0} [0]
+x616 categorical {1,0} [0]
+x617 categorical {1,0} [0]
+x618 categorical {1,0} [0]
+x619 categorical {1,0} [0]
+x620 categorical {1,0} [0]
+x621 categorical {1,0} [0]
+x622 categorical {1,0} [0]
+x623 categorical {1,0} [0]
+x624 categorical {1,0} [0]
+x625 categorical {1,0} [0]
+x626 categorical {1,0} [0]
+x627 categorical {1,0} [0]
+x628 categorical {1,0} [0]
+x629 categorical {1,0} [0]
+x630 categorical {1,0} [0]
+x631 categorical {1,0} [0]
+x632 categorical {1,0} [0]
+x633 categorical {1,0} [0]
+x634 categorical {1,0} [0]
+x635 categorical {1,0} [0]
+x636 categorical {1,0} [0]
+x637 categorical {1,0} [0]
+x638 categorical {1,0} [0]
+x639 categorical {1,0} [0]
+x640 categorical {1,0} [0]
+x641 categorical {1,0} [0]
+x642 categorical {1,0} [0]
+x643 categorical {1,0} [0]
+x644 categorical {1,0} [0]
+x645 categorical {1,0} [0]
+x646 categorical {1,0} [0]
+x647 categorical {1,0} [0]
+x648 categorical {1,0} [0]
+x649 categorical {1,0} [0]
+x650 categorical {1,0} [0]
+x651 categorical {1,0} [0]
+x652 categorical {1,0} [0]
+x653 categorical {1,0} [0]
+x654 categorical {1,0} [0]
+x655 categorical {1,0} [0]
+x656 categorical {1,0} [0]
+x657 categorical {1,0} [0]
+x658 categorical {1,0} [0]
+x659 categorical {1,0} [0]
+x660 categorical {1,0} [0]
+x661 categorical {1,0} [0]
+x662 categorical {1,0} [0]
+x663 categorical {1,0} [0]
+x664 categorical {1,0} [0]
+x665 categorical {1,0} [0]
+x666 categorical {1,0} [0]
+x667 categorical {1,0} [0]
+x668 categorical {1,0} [0]
+x669 categorical {1,0} [0]
+x670 categorical {1,0} [0]
+x671 categorical {1,0} [0]
+x672 categorical {1,0} [0]
+x673 categorical {1,0} [0]
+x674 categorical {1,0} [0]
+x675 categorical {1,0} [0]
+x676 categorical {1,0} [0]
+x677 categorical {1,0} [0]
+x678 categorical {1,0} [0]
+x679 categorical {1,0} [0]
+x680 categorical {1,0} [0]
+x681 categorical {1,0} [0]
+x682 categorical {1,0} [0]
+x683 categorical {1,0} [0]
+x684 categorical {1,0} [0]
+x685 categorical {1,0} [0]
+x686 categorical {1,0} [0]
+x687 categorical {1,0} [0]
+x688 categorical {1,0} [0]
+x689 categorical {1,0} [0]
+x690 categorical {1,0} [0]
+x691 categorical {1,0} [0]
+x692 categorical {1,0} [0]
+x693 categorical {1,0} [0]
+x694 categorical {1,0} [0]
+x695 categorical {1,0} [0]
+x696 categorical {1,0} [0]
+x697 categorical {1,0} [0]
+x698 categorical {1,0} [0]
+x699 categorical {1,0} [0]
+x700 categorical {1,0} [0]
+x701 categorical {1,0} [0]
+x702 categorical {1,0} [0]
+x703 categorical {1,0} [0]
+x704 categorical {1,0} [0]
+x705 categorical {1,0} [0]
+x706 categorical {1,0} [0]
+x707 categorical {1,0} [0]
+x708 categorical {1,0} [0]
+x709 categorical {1,0} [0]
+x710 categorical {1,0} [0]
+x711 categorical {1,0} [0]
+x712 categorical {1,0} [0]
+x713 categorical {1,0} [0]
+x714 categorical {1,0} [0]
+x715 categorical {1,0} [0]
+x716 categorical {1,0} [0]
+x717 categorical {1,0} [0]
+x718 categorical {1,0} [0]
+x719 categorical {1,0} [0]
+x720 categorical {1,0} [0]
+x721 categorical {1,0} [0]
+x722 categorical {1,0} [0]
+x723 categorical {1,0} [0]
+x724 categorical {1,0} [0]
+x725 categorical {1,0} [0]
+x726 categorical {1,0} [0]
+x727 categorical {1,0} [0]
+x728 categorical {1,0} [0]
+x729 categorical {1,0} [0]
+x730 categorical {1,0} [0]
+x731 categorical {1,0} [0]
+x732 categorical {1,0} [0]
+x733 categorical {1,0} [0]
+x734 categorical {1,0} [0]
+x735 categorical {1,0} [0]
+x736 categorical {1,0} [0]
+x737 categorical {1,0} [0]
+x738 categorical {1,0} [0]
+x739 categorical {1,0} [0]
+x740 categorical {1,0} [0]
+x741 categorical {1,0} [0]
+x742 categorical {1,0} [0]
+x743 categorical {1,0} [0]
+x744 categorical {1,0} [0]
+x745 categorical {1,0} [0]
+x746 categorical {1,0} [0]
+x747 categorical {1,0} [0]
+x748 categorical {1,0} [0]
+x749 categorical {1,0} [0]
+x750 categorical {1,0} [0]
+x751 categorical {1,0} [0]
+x752 categorical {1,0} [0]
+x753 categorical {1,0} [0]
+x754 categorical {1,0} [0]
+x755 categorical {1,0} [0]
+x756 categorical {1,0} [0]
+x757 categorical {1,0} [0]
+x758 categorical {1,0} [0]
+x759 categorical {1,0} [0]
+x760 categorical {1,0} [0]
+x761 categorical {1,0} [0]
+x762 categorical {1,0} [0]
+x763 categorical {1,0} [0]
+x764 categorical {1,0} [0]
+x765 categorical {1,0} [0]
+x766 categorical {1,0} [0]
+x767 categorical {1,0} [0]
+x768 categorical {1,0} [0]
+x769 categorical {1,0} [0]
+x770 categorical {1,0} [0]
+x771 categorical {1,0} [0]
+x772 categorical {1,0} [0]
+x773 categorical {1,0} [0]
+x774 categorical {1,0} [0]
+x775 categorical {1,0} [0]
+x776 categorical {1,0} [0]
+x777 categorical {1,0} [0]
+x778 categorical {1,0} [0]
+x779 categorical {1,0} [0]
+x780 categorical {1,0} [0]
+x781 categorical {1,0} [0]
+x782 categorical {1,0} [0]
+x783 categorical {1,0} [0]
+x784 categorical {1,0} [0]
+x785 categorical {1,0} [0]
+x786 categorical {1,0} [0]
+x787 categorical {1,0} [0]
+x788 categorical {1,0} [0]
+x789 categorical {1,0} [0]
+x790 categorical {1,0} [0]
+x791 categorical {1,0} [0]
+x792 categorical {1,0} [0]
+x793 categorical {1,0} [0]
+x794 categorical {1,0} [0]
+x795 categorical {1,0} [0]
+x796 categorical {1,0} [0]
+x797 categorical {1,0} [0]
+x798 categorical {1,0} [0]
+x799 categorical {1,0} [0]
+x800 categorical {1,0} [0]
+x801 categorical {1,0} [0]
+x802 categorical {1,0} [0]
+x803 categorical {1,0} [0]
+x804 categorical {1,0} [0]
+x805 categorical {1,0} [0]
+x806 categorical {1,0} [0]
+x807 categorical {1,0} [0]
+x808 categorical {1,0} [0]
+x809 categorical {1,0} [0]
+x810 categorical {1,0} [0]
+x811 categorical {1,0} [0]
+x812 categorical {1,0} [0]
+x813 categorical {1,0} [0]
+x814 categorical {1,0} [0]
+x815 categorical {1,0} [0]
+x816 categorical {1,0} [0]
+x817 categorical {1,0} [0]
+x818 categorical {1,0} [0]
+x819 categorical {1,0} [0]
+x820 categorical {1,0} [0]
+x821 categorical {1,0} [0]
+x822 categorical {1,0} [0]
+x823 categorical {1,0} [0]
+x824 categorical {1,0} [0]
+x825 categorical {1,0} [0]
+x826 categorical {1,0} [0]
+x827 categorical {1,0} [0]
+x828 categorical {1,0} [0]
+x829 categorical {1,0} [0]
+x830 categorical {1,0} [0]
+x831 categorical {1,0} [0]
+x832 categorical {1,0} [0]
+x833 categorical {1,0} [0]
+x834 categorical {1,0} [0]
+x835 categorical {1,0} [0]
+x836 categorical {1,0} [0]
+x837 categorical {1,0} [0]
+x838 categorical {1,0} [0]
+x839 categorical {1,0} [0]
+x840 categorical {1,0} [0]
+x841 categorical {1,0} [0]
+x842 categorical {1,0} [0]
+x843 categorical {1,0} [0]
+x844 categorical {1,0} [0]
+x845 categorical {1,0} [0]
+x846 categorical {1,0} [0]
+x847 categorical {1,0} [0]
+x848 categorical {1,0} [0]
+x849 categorical {1,0} [0]
+x850 categorical {1,0} [0]
+x851 categorical {1,0} [0]
+x852 categorical {1,0} [0]
+x853 categorical {1,0} [0]
+x854 categorical {1,0} [0]
+x855 categorical {1,0} [0]
+x856 categorical {1,0} [0]
+x857 categorical {1,0} [0]
+x858 categorical {1,0} [0]
+x859 categorical {1,0} [0]
+x860 categorical {1,0} [0]
+x861 categorical {1,0} [0]
+x862 categorical {1,0} [0]
+x863 categorical {1,0} [0]
+x864 categorical {1,0} [0]
+x865 categorical {1,0} [0]
+x866 categorical {1,0} [0]
+x867 categorical {1,0} [0]
+x868 categorical {1,0} [0]
+x869 categorical {1,0} [0]
+x870 categorical {1,0} [0]
+x871 categorical {1,0} [0]
+x872 categorical {1,0} [0]
+x873 categorical {1,0} [0]
+x874 categorical {1,0} [0]
+x875 categorical {1,0} [0]
+x876 categorical {1,0} [0]
+x877 categorical {1,0} [0]
+x878 categorical {1,0} [0]
+x879 categorical {1,0} [0]
+x880 categorical {1,0} [0]
+x881 categorical {1,0} [0]
+x882 categorical {1,0} [0]
+x883 categorical {1,0} [0]
+x884 categorical {1,0} [0]
+x885 categorical {1,0} [0]
+x886 categorical {1,0} [0]
+x887 categorical {1,0} [0]
+x888 categorical {1,0} [0]
+x889 categorical {1,0} [0]
+x890 categorical {1,0} [0]
+x891 categorical {1,0} [0]
+x892 categorical {1,0} [0]
+x893 categorical {1,0} [0]
+x894 categorical {1,0} [0]
+x895 categorical {1,0} [0]
+x896 categorical {1,0} [0]
+x897 categorical {1,0} [0]
+x898 categorical {1,0} [0]
+x899 categorical {1,0} [0]
+x900 categorical {1,0} [0]
+x901 categorical {1,0} [0]
+x902 categorical {1,0} [0]
+x903 categorical {1,0} [0]
+x904 categorical {1,0} [0]
+x905 categorical {1,0} [0]
+x906 categorical {1,0} [0]
+x907 categorical {1,0} [0]
+x908 categorical {1,0} [0]
+x909 categorical {1,0} [0]
+x910 categorical {1,0} [0]
+x911 categorical {1,0} [0]
+x912 categorical {1,0} [0]
+x913 categorical {1,0} [0]
+x914 categorical {1,0} [0]
+x915 categorical {1,0} [0]
+x916 categorical {1,0} [0]
+x917 categorical {1,0} [0]
+x918 categorical {1,0} [0]
+x919 categorical {1,0} [0]
+x920 categorical {1,0} [0]
+x921 categorical {1,0} [0]
+x922 categorical {1,0} [0]
+x923 categorical {1,0} [0]
+x924 categorical {1,0} [0]
+x925 categorical {1,0} [0]
+x926 categorical {1,0} [0]
+x927 categorical {1,0} [0]
+x928 categorical {1,0} [0]
+x929 categorical {1,0} [0]
+x930 categorical {1,0} [0]
+x931 categorical {1,0} [0]
+x932 categorical {1,0} [0]
+x933 categorical {1,0} [0]
+x934 categorical {1,0} [0]
+x935 categorical {1,0} [0]
+x936 categorical {1,0} [0]
+x937 categorical {1,0} [0]
+x938 categorical {1,0} [0]
+x939 categorical {1,0} [0]
+x940 categorical {1,0} [0]
+x941 categorical {1,0} [0]
+x942 categorical {1,0} [0]
+x943 categorical {1,0} [0]
+x944 categorical {1,0} [0]
+x945 categorical {1,0} [0]
+x946 categorical {1,0} [0]
+x947 categorical {1,0} [0]
+x948 categorical {1,0} [0]
+x949 categorical {1,0} [0]
+x950 categorical {1,0} [0]
+x951 categorical {1,0} [0]
+x952 categorical {1,0} [0]
+x953 categorical {1,0} [0]
+x954 categorical {1,0} [0]
+x955 categorical {1,0} [0]
+x956 categorical {1,0} [0]
+x957 categorical {1,0} [0]
+x958 categorical {1,0} [0]
+x959 categorical {1,0} [0]
+x960 categorical {1,0} [0]
+x961 categorical {1,0} [0]
+x962 categorical {1,0} [0]
+x963 categorical {1,0} [0]
+x964 categorical {1,0} [0]
+x965 categorical {1,0} [0]
+x966 categorical {1,0} [0]
+x967 categorical {1,0} [0]
+x968 categorical {1,0} [0]
+x969 categorical {1,0} [0]
+x970 categorical {1,0} [0]
+x971 categorical {1,0} [0]
+x972 categorical {1,0} [0]
+x973 categorical {1,0} [0]
+x974 categorical {1,0} [0]
+x975 categorical {1,0} [0]
+x976 categorical {1,0} [0]
+x977 categorical {1,0} [0]
+x978 categorical {1,0} [0]
+x979 categorical {1,0} [0]
+x980 categorical {1,0} [0]
+x981 categorical {1,0} [0]
+x982 categorical {1,0} [0]
+x983 categorical {1,0} [0]
+x984 categorical {1,0} [0]
+x985 categorical {1,0} [0]
+x986 categorical {1,0} [0]
+x987 categorical {1,0} [0]
+x988 categorical {1,0} [0]
+x989 categorical {1,0} [0]
+x990 categorical {1,0} [0]
+x991 categorical {1,0} [0]
+x992 categorical {1,0} [0]
+x993 categorical {1,0} [0]
+x994 categorical {1,0} [0]
+x995 categorical {1,0} [0]
+x996 categorical {1,0} [0]
+x997 categorical {1,0} [0]
+x998 categorical {1,0} [0]
+x999 categorical {1,0} [0]
+
+x001 | x000 in {1}
+x002 | x001 in {1}
+x003 | x002 in {1}
+x004 | x003 in {1}
+x005 | x004 in {1}
+x006 | x005 in {1}
+x007 | x006 in {1}
+x008 | x007 in {1}
+x009 | x008 in {1}
+x010 | x009 in {1}
+x011 | x010 in {1}
+x012 | x011 in {1}
+x013 | x012 in {1}
+x014 | x013 in {1}
+x015 | x014 in {1}
+x016 | x015 in {1}
+x017 | x016 in {1}
+x018 | x017 in {1}
+x019 | x018 in {1}
+x020 | x019 in {1}
+x021 | x020 in {1}
+x022 | x021 in {1}
+x023 | x022 in {1}
+x024 | x023 in {1}
+x025 | x024 in {1}
+x026 | x025 in {1}
+x027 | x026 in {1}
+x028 | x027 in {1}
+x029 | x028 in {1}
+x030 | x029 in {1}
+x031 | x030 in {1}
+x032 | x031 in {1}
+x033 | x032 in {1}
+x034 | x033 in {1}
+x035 | x034 in {1}
+x036 | x035 in {1}
+x037 | x036 in {1}
+x038 | x037 in {1}
+x039 | x038 in {1}
+x040 | x039 in {1}
+x041 | x040 in {1}
+x042 | x041 in {1}
+x043 | x042 in {1}
+x044 | x043 in {1}
+x045 | x044 in {1}
+x046 | x045 in {1}
+x047 | x046 in {1}
+x048 | x047 in {1}
+x049 | x048 in {1}
+x050 | x049 in {1}
+x051 | x050 in {1}
+x052 | x051 in {1}
+x053 | x052 in {1}
+x054 | x053 in {1}
+x055 | x054 in {1}
+x056 | x055 in {1}
+x057 | x056 in {1}
+x058 | x057 in {1}
+x059 | x058 in {1}
+x060 | x059 in {1}
+x061 | x060 in {1}
+x062 | x061 in {1}
+x063 | x062 in {1}
+x064 | x063 in {1}
+x065 | x064 in {1}
+x066 | x065 in {1}
+x067 | x066 in {1}
+x068 | x067 in {1}
+x069 | x068 in {1}
+x070 | x069 in {1}
+x071 | x070 in {1}
+x072 | x071 in {1}
+x073 | x072 in {1}
+x074 | x073 in {1}
+x075 | x074 in {1}
+x076 | x075 in {1}
+x077 | x076 in {1}
+x078 | x077 in {1}
+x079 | x078 in {1}
+x080 | x079 in {1}
+x081 | x080 in {1}
+x082 | x081 in {1}
+x083 | x082 in {1}
+x084 | x083 in {1}
+x085 | x084 in {1}
+x086 | x085 in {1}
+x087 | x086 in {1}
+x088 | x087 in {1}
+x089 | x088 in {1}
+x090 | x089 in {1}
+x091 | x090 in {1}
+x092 | x091 in {1}
+x093 | x092 in {1}
+x094 | x093 in {1}
+x095 | x094 in {1}
+x096 | x095 in {1}
+x097 | x096 in {1}
+x098 | x097 in {1}
+x099 | x098 in {1}
+x100 | x099 in {1}
+x101 | x100 in {1}
+x102 | x101 in {1}
+x103 | x102 in {1}
+x104 | x103 in {1}
+x105 | x104 in {1}
+x106 | x105 in {1}
+x107 | x106 in {1}
+x108 | x107 in {1}
+x109 | x108 in {1}
+x110 | x109 in {1}
+x111 | x110 in {1}
+x112 | x111 in {1}
+x113 | x112 in {1}
+x114 | x113 in {1}
+x115 | x114 in {1}
+x116 | x115 in {1}
+x117 | x116 in {1}
+x118 | x117 in {1}
+x119 | x118 in {1}
+x120 | x119 in {1}
+x121 | x120 in {1}
+x122 | x121 in {1}
+x123 | x122 in {1}
+x124 | x123 in {1}
+x125 | x124 in {1}
+x126 | x125 in {1}
+x127 | x126 in {1}
+x128 | x127 in {1}
+x129 | x128 in {1}
+x130 | x129 in {1}
+x131 | x130 in {1}
+x132 | x131 in {1}
+x133 | x132 in {1}
+x134 | x133 in {1}
+x135 | x134 in {1}
+x136 | x135 in {1}
+x137 | x136 in {1}
+x138 | x137 in {1}
+x139 | x138 in {1}
+x140 | x139 in {1}
+x141 | x140 in {1}
+x142 | x141 in {1}
+x143 | x142 in {1}
+x144 | x143 in {1}
+x145 | x144 in {1}
+x146 | x145 in {1}
+x147 | x146 in {1}
+x148 | x147 in {1}
+x149 | x148 in {1}
+x150 | x149 in {1}
+x151 | x150 in {1}
+x152 | x151 in {1}
+x153 | x152 in {1}
+x154 | x153 in {1}
+x155 | x154 in {1}
+x156 | x155 in {1}
+x157 | x156 in {1}
+x158 | x157 in {1}
+x159 | x158 in {1}
+x160 | x159 in {1}
+x161 | x160 in {1}
+x162 | x161 in {1}
+x163 | x162 in {1}
+x164 | x163 in {1}
+x165 | x164 in {1}
+x166 | x165 in {1}
+x167 | x166 in {1}
+x168 | x167 in {1}
+x169 | x168 in {1}
+x170 | x169 in {1}
+x171 | x170 in {1}
+x172 | x171 in {1}
+x173 | x172 in {1}
+x174 | x173 in {1}
+x175 | x174 in {1}
+x176 | x175 in {1}
+x177 | x176 in {1}
+x178 | x177 in {1}
+x179 | x178 in {1}
+x180 | x179 in {1}
+x181 | x180 in {1}
+x182 | x181 in {1}
+x183 | x182 in {1}
+x184 | x183 in {1}
+x185 | x184 in {1}
+x186 | x185 in {1}
+x187 | x186 in {1}
+x188 | x187 in {1}
+x189 | x188 in {1}
+x190 | x189 in {1}
+x191 | x190 in {1}
+x192 | x191 in {1}
+x193 | x192 in {1}
+x194 | x193 in {1}
+x195 | x194 in {1}
+x196 | x195 in {1}
+x197 | x196 in {1}
+x198 | x197 in {1}
+x199 | x198 in {1}
+x200 | x199 in {1}
+x201 | x200 in {1}
+x202 | x201 in {1}
+x203 | x202 in {1}
+x204 | x203 in {1}
+x205 | x204 in {1}
+x206 | x205 in {1}
+x207 | x206 in {1}
+x208 | x207 in {1}
+x209 | x208 in {1}
+x210 | x209 in {1}
+x211 | x210 in {1}
+x212 | x211 in {1}
+x213 | x212 in {1}
+x214 | x213 in {1}
+x215 | x214 in {1}
+x216 | x215 in {1}
+x217 | x216 in {1}
+x218 | x217 in {1}
+x219 | x218 in {1}
+x220 | x219 in {1}
+x221 | x220 in {1}
+x222 | x221 in {1}
+x223 | x222 in {1}
+x224 | x223 in {1}
+x225 | x224 in {1}
+x226 | x225 in {1}
+x227 | x226 in {1}
+x228 | x227 in {1}
+x229 | x228 in {1}
+x230 | x229 in {1}
+x231 | x230 in {1}
+x232 | x231 in {1}
+x233 | x232 in {1}
+x234 | x233 in {1}
+x235 | x234 in {1}
+x236 | x235 in {1}
+x237 | x236 in {1}
+x238 | x237 in {1}
+x239 | x238 in {1}
+x240 | x239 in {1}
+x241 | x240 in {1}
+x242 | x241 in {1}
+x243 | x242 in {1}
+x244 | x243 in {1}
+x245 | x244 in {1}
+x246 | x245 in {1}
+x247 | x246 in {1}
+x248 | x247 in {1}
+x249 | x248 in {1}
+x250 | x249 in {1}
+x251 | x250 in {1}
+x252 | x251 in {1}
+x253 | x252 in {1}
+x254 | x253 in {1}
+x255 | x254 in {1}
+x256 | x255 in {1}
+x257 | x256 in {1}
+x258 | x257 in {1}
+x259 | x258 in {1}
+x260 | x259 in {1}
+x261 | x260 in {1}
+x262 | x261 in {1}
+x263 | x262 in {1}
+x264 | x263 in {1}
+x265 | x264 in {1}
+x266 | x265 in {1}
+x267 | x266 in {1}
+x268 | x267 in {1}
+x269 | x268 in {1}
+x270 | x269 in {1}
+x271 | x270 in {1}
+x272 | x271 in {1}
+x273 | x272 in {1}
+x274 | x273 in {1}
+x275 | x274 in {1}
+x276 | x275 in {1}
+x277 | x276 in {1}
+x278 | x277 in {1}
+x279 | x278 in {1}
+x280 | x279 in {1}
+x281 | x280 in {1}
+x282 | x281 in {1}
+x283 | x282 in {1}
+x284 | x283 in {1}
+x285 | x284 in {1}
+x286 | x285 in {1}
+x287 | x286 in {1}
+x288 | x287 in {1}
+x289 | x288 in {1}
+x290 | x289 in {1}
+x291 | x290 in {1}
+x292 | x291 in {1}
+x293 | x292 in {1}
+x294 | x293 in {1}
+x295 | x294 in {1}
+x296 | x295 in {1}
+x297 | x296 in {1}
+x298 | x297 in {1}
+x299 | x298 in {1}
+x300 | x299 in {1}
+x301 | x300 in {1}
+x302 | x301 in {1}
+x303 | x302 in {1}
+x304 | x303 in {1}
+x305 | x304 in {1}
+x306 | x305 in {1}
+x307 | x306 in {1}
+x308 | x307 in {1}
+x309 | x308 in {1}
+x310 | x309 in {1}
+x311 | x310 in {1}
+x312 | x311 in {1}
+x313 | x312 in {1}
+x314 | x313 in {1}
+x315 | x314 in {1}
+x316 | x315 in {1}
+x317 | x316 in {1}
+x318 | x317 in {1}
+x319 | x318 in {1}
+x320 | x319 in {1}
+x321 | x320 in {1}
+x322 | x321 in {1}
+x323 | x322 in {1}
+x324 | x323 in {1}
+x325 | x324 in {1}
+x326 | x325 in {1}
+x327 | x326 in {1}
+x328 | x327 in {1}
+x329 | x328 in {1}
+x330 | x329 in {1}
+x331 | x330 in {1}
+x332 | x331 in {1}
+x333 | x332 in {1}
+x334 | x333 in {1}
+x335 | x334 in {1}
+x336 | x335 in {1}
+x337 | x336 in {1}
+x338 | x337 in {1}
+x339 | x338 in {1}
+x340 | x339 in {1}
+x341 | x340 in {1}
+x342 | x341 in {1}
+x343 | x342 in {1}
+x344 | x343 in {1}
+x345 | x344 in {1}
+x346 | x345 in {1}
+x347 | x346 in {1}
+x348 | x347 in {1}
+x349 | x348 in {1}
+x350 | x349 in {1}
+x351 | x350 in {1}
+x352 | x351 in {1}
+x353 | x352 in {1}
+x354 | x353 in {1}
+x355 | x354 in {1}
+x356 | x355 in {1}
+x357 | x356 in {1}
+x358 | x357 in {1}
+x359 | x358 in {1}
+x360 | x359 in {1}
+x361 | x360 in {1}
+x362 | x361 in {1}
+x363 | x362 in {1}
+x364 | x363 in {1}
+x365 | x364 in {1}
+x366 | x365 in {1}
+x367 | x366 in {1}
+x368 | x367 in {1}
+x369 | x368 in {1}
+x370 | x369 in {1}
+x371 | x370 in {1}
+x372 | x371 in {1}
+x373 | x372 in {1}
+x374 | x373 in {1}
+x375 | x374 in {1}
+x376 | x375 in {1}
+x377 | x376 in {1}
+x378 | x377 in {1}
+x379 | x378 in {1}
+x380 | x379 in {1}
+x381 | x380 in {1}
+x382 | x381 in {1}
+x383 | x382 in {1}
+x384 | x383 in {1}
+x385 | x384 in {1}
+x386 | x385 in {1}
+x387 | x386 in {1}
+x388 | x387 in {1}
+x389 | x388 in {1}
+x390 | x389 in {1}
+x391 | x390 in {1}
+x392 | x391 in {1}
+x393 | x392 in {1}
+x394 | x393 in {1}
+x395 | x394 in {1}
+x396 | x395 in {1}
+x397 | x396 in {1}
+x398 | x397 in {1}
+x399 | x398 in {1}
+x400 | x399 in {1}
+x401 | x400 in {1}
+x402 | x401 in {1}
+x403 | x402 in {1}
+x404 | x403 in {1}
+x405 | x404 in {1}
+x406 | x405 in {1}
+x407 | x406 in {1}
+x408 | x407 in {1}
+x409 | x408 in {1}
+x410 | x409 in {1}
+x411 | x410 in {1}
+x412 | x411 in {1}
+x413 | x412 in {1}
+x414 | x413 in {1}
+x415 | x414 in {1}
+x416 | x415 in {1}
+x417 | x416 in {1}
+x418 | x417 in {1}
+x419 | x418 in {1}
+x420 | x419 in {1}
+x421 | x420 in {1}
+x422 | x421 in {1}
+x423 | x422 in {1}
+x424 | x423 in {1}
+x425 | x424 in {1}
+x426 | x425 in {1}
+x427 | x426 in {1}
+x428 | x427 in {1}
+x429 | x428 in {1}
+x430 | x429 in {1}
+x431 | x430 in {1}
+x432 | x431 in {1}
+x433 | x432 in {1}
+x434 | x433 in {1}
+x435 | x434 in {1}
+x436 | x435 in {1}
+x437 | x436 in {1}
+x438 | x437 in {1}
+x439 | x438 in {1}
+x440 | x439 in {1}
+x441 | x440 in {1}
+x442 | x441 in {1}
+x443 | x442 in {1}
+x444 | x443 in {1}
+x445 | x444 in {1}
+x446 | x445 in {1}
+x447 | x446 in {1}
+x448 | x447 in {1}
+x449 | x448 in {1}
+x450 | x449 in {1}
+x451 | x450 in {1}
+x452 | x451 in {1}
+x453 | x452 in {1}
+x454 | x453 in {1}
+x455 | x454 in {1}
+x456 | x455 in {1}
+x457 | x456 in {1}
+x458 | x457 in {1}
+x459 | x458 in {1}
+x460 | x459 in {1}
+x461 | x460 in {1}
+x462 | x461 in {1}
+x463 | x462 in {1}
+x464 | x463 in {1}
+x465 | x464 in {1}
+x466 | x465 in {1}
+x467 | x466 in {1}
+x468 | x467 in {1}
+x469 | x468 in {1}
+x470 | x469 in {1}
+x471 | x470 in {1}
+x472 | x471 in {1}
+x473 | x472 in {1}
+x474 | x473 in {1}
+x475 | x474 in {1}
+x476 | x475 in {1}
+x477 | x476 in {1}
+x478 | x477 in {1}
+x479 | x478 in {1}
+x480 | x479 in {1}
+x481 | x480 in {1}
+x482 | x481 in {1}
+x483 | x482 in {1}
+x484 | x483 in {1}
+x485 | x484 in {1}
+x486 | x485 in {1}
+x487 | x486 in {1}
+x488 | x487 in {1}
+x489 | x488 in {1}
+x490 | x489 in {1}
+x491 | x490 in {1}
+x492 | x491 in {1}
+x493 | x492 in {1}
+x494 | x493 in {1}
+x495 | x494 in {1}
+x496 | x495 in {1}
+x497 | x496 in {1}
+x498 | x497 in {1}
+x499 | x498 in {1}
+x500 | x499 in {1}
+x501 | x500 in {1}
+x502 | x501 in {1}
+x503 | x502 in {1}
+x504 | x503 in {1}
+x505 | x504 in {1}
+x506 | x505 in {1}
+x507 | x506 in {1}
+x508 | x507 in {1}
+x509 | x508 in {1}
+x510 | x509 in {1}
+x511 | x510 in {1}
+x512 | x511 in {1}
+x513 | x512 in {1}
+x514 | x513 in {1}
+x515 | x514 in {1}
+x516 | x515 in {1}
+x517 | x516 in {1}
+x518 | x517 in {1}
+x519 | x518 in {1}
+x520 | x519 in {1}
+x521 | x520 in {1}
+x522 | x521 in {1}
+x523 | x522 in {1}
+x524 | x523 in {1}
+x525 | x524 in {1}
+x526 | x525 in {1}
+x527 | x526 in {1}
+x528 | x527 in {1}
+x529 | x528 in {1}
+x530 | x529 in {1}
+x531 | x530 in {1}
+x532 | x531 in {1}
+x533 | x532 in {1}
+x534 | x533 in {1}
+x535 | x534 in {1}
+x536 | x535 in {1}
+x537 | x536 in {1}
+x538 | x537 in {1}
+x539 | x538 in {1}
+x540 | x539 in {1}
+x541 | x540 in {1}
+x542 | x541 in {1}
+x543 | x542 in {1}
+x544 | x543 in {1}
+x545 | x544 in {1}
+x546 | x545 in {1}
+x547 | x546 in {1}
+x548 | x547 in {1}
+x549 | x548 in {1}
+x550 | x549 in {1}
+x551 | x550 in {1}
+x552 | x551 in {1}
+x553 | x552 in {1}
+x554 | x553 in {1}
+x555 | x554 in {1}
+x556 | x555 in {1}
+x557 | x556 in {1}
+x558 | x557 in {1}
+x559 | x558 in {1}
+x560 | x559 in {1}
+x561 | x560 in {1}
+x562 | x561 in {1}
+x563 | x562 in {1}
+x564 | x563 in {1}
+x565 | x564 in {1}
+x566 | x565 in {1}
+x567 | x566 in {1}
+x568 | x567 in {1}
+x569 | x568 in {1}
+x570 | x569 in {1}
+x571 | x570 in {1}
+x572 | x571 in {1}
+x573 | x572 in {1}
+x574 | x573 in {1}
+x575 | x574 in {1}
+x576 | x575 in {1}
+x577 | x576 in {1}
+x578 | x577 in {1}
+x579 | x578 in {1}
+x580 | x579 in {1}
+x581 | x580 in {1}
+x582 | x581 in {1}
+x583 | x582 in {1}
+x584 | x583 in {1}
+x585 | x584 in {1}
+x586 | x585 in {1}
+x587 | x586 in {1}
+x588 | x587 in {1}
+x589 | x588 in {1}
+x590 | x589 in {1}
+x591 | x590 in {1}
+x592 | x591 in {1}
+x593 | x592 in {1}
+x594 | x593 in {1}
+x595 | x594 in {1}
+x596 | x595 in {1}
+x597 | x596 in {1}
+x598 | x597 in {1}
+x599 | x598 in {1}
+x600 | x599 in {1}
+x601 | x600 in {1}
+x602 | x601 in {1}
+x603 | x602 in {1}
+x604 | x603 in {1}
+x605 | x604 in {1}
+x606 | x605 in {1}
+x607 | x606 in {1}
+x608 | x607 in {1}
+x609 | x608 in {1}
+x610 | x609 in {1}
+x611 | x610 in {1}
+x612 | x611 in {1}
+x613 | x612 in {1}
+x614 | x613 in {1}
+x615 | x614 in {1}
+x616 | x615 in {1}
+x617 | x616 in {1}
+x618 | x617 in {1}
+x619 | x618 in {1}
+x620 | x619 in {1}
+x621 | x620 in {1}
+x622 | x621 in {1}
+x623 | x622 in {1}
+x624 | x623 in {1}
+x625 | x624 in {1}
+x626 | x625 in {1}
+x627 | x626 in {1}
+x628 | x627 in {1}
+x629 | x628 in {1}
+x630 | x629 in {1}
+x631 | x630 in {1}
+x632 | x631 in {1}
+x633 | x632 in {1}
+x634 | x633 in {1}
+x635 | x634 in {1}
+x636 | x635 in {1}
+x637 | x636 in {1}
+x638 | x637 in {1}
+x639 | x638 in {1}
+x640 | x639 in {1}
+x641 | x640 in {1}
+x642 | x641 in {1}
+x643 | x642 in {1}
+x644 | x643 in {1}
+x645 | x644 in {1}
+x646 | x645 in {1}
+x647 | x646 in {1}
+x648 | x647 in {1}
+x649 | x648 in {1}
+x650 | x649 in {1}
+x651 | x650 in {1}
+x652 | x651 in {1}
+x653 | x652 in {1}
+x654 | x653 in {1}
+x655 | x654 in {1}
+x656 | x655 in {1}
+x657 | x656 in {1}
+x658 | x657 in {1}
+x659 | x658 in {1}
+x660 | x659 in {1}
+x661 | x660 in {1}
+x662 | x661 in {1}
+x663 | x662 in {1}
+x664 | x663 in {1}
+x665 | x664 in {1}
+x666 | x665 in {1}
+x667 | x666 in {1}
+x668 | x667 in {1}
+x669 | x668 in {1}
+x670 | x669 in {1}
+x671 | x670 in {1}
+x672 | x671 in {1}
+x673 | x672 in {1}
+x674 | x673 in {1}
+x675 | x674 in {1}
+x676 | x675 in {1}
+x677 | x676 in {1}
+x678 | x677 in {1}
+x679 | x678 in {1}
+x680 | x679 in {1}
+x681 | x680 in {1}
+x682 | x681 in {1}
+x683 | x682 in {1}
+x684 | x683 in {1}
+x685 | x684 in {1}
+x686 | x685 in {1}
+x687 | x686 in {1}
+x688 | x687 in {1}
+x689 | x688 in {1}
+x690 | x689 in {1}
+x691 | x690 in {1}
+x692 | x691 in {1}
+x693 | x692 in {1}
+x694 | x693 in {1}
+x695 | x694 in {1}
+x696 | x695 in {1}
+x697 | x696 in {1}
+x698 | x697 in {1}
+x699 | x698 in {1}
+x700 | x699 in {1}
+x701 | x700 in {1}
+x702 | x701 in {1}
+x703 | x702 in {1}
+x704 | x703 in {1}
+x705 | x704 in {1}
+x706 | x705 in {1}
+x707 | x706 in {1}
+x708 | x707 in {1}
+x709 | x708 in {1}
+x710 | x709 in {1}
+x711 | x710 in {1}
+x712 | x711 in {1}
+x713 | x712 in {1}
+x714 | x713 in {1}
+x715 | x714 in {1}
+x716 | x715 in {1}
+x717 | x716 in {1}
+x718 | x717 in {1}
+x719 | x718 in {1}
+x720 | x719 in {1}
+x721 | x720 in {1}
+x722 | x721 in {1}
+x723 | x722 in {1}
+x724 | x723 in {1}
+x725 | x724 in {1}
+x726 | x725 in {1}
+x727 | x726 in {1}
+x728 | x727 in {1}
+x729 | x728 in {1}
+x730 | x729 in {1}
+x731 | x730 in {1}
+x732 | x731 in {1}
+x733 | x732 in {1}
+x734 | x733 in {1}
+x735 | x734 in {1}
+x736 | x735 in {1}
+x737 | x736 in {1}
+x738 | x737 in {1}
+x739 | x738 in {1}
+x740 | x739 in {1}
+x741 | x740 in {1}
+x742 | x741 in {1}
+x743 | x742 in {1}
+x744 | x743 in {1}
+x745 | x744 in {1}
+x746 | x745 in {1}
+x747 | x746 in {1}
+x748 | x747 in {1}
+x749 | x748 in {1}
+x750 | x749 in {1}
+x751 | x750 in {1}
+x752 | x751 in {1}
+x753 | x752 in {1}
+x754 | x753 in {1}
+x755 | x754 in {1}
+x756 | x755 in {1}
+x757 | x756 in {1}
+x758 | x757 in {1}
+x759 | x758 in {1}
+x760 | x759 in {1}
+x761 | x760 in {1}
+x762 | x761 in {1}
+x763 | x762 in {1}
+x764 | x763 in {1}
+x765 | x764 in {1}
+x766 | x765 in {1}
+x767 | x766 in {1}
+x768 | x767 in {1}
+x769 | x768 in {1}
+x770 | x769 in {1}
+x771 | x770 in {1}
+x772 | x771 in {1}
+x773 | x772 in {1}
+x774 | x773 in {1}
+x775 | x774 in {1}
+x776 | x775 in {1}
+x777 | x776 in {1}
+x778 | x777 in {1}
+x779 | x778 in {1}
+x780 | x779 in {1}
+x781 | x780 in {1}
+x782 | x781 in {1}
+x783 | x782 in {1}
+x784 | x783 in {1}
+x785 | x784 in {1}
+x786 | x785 in {1}
+x787 | x786 in {1}
+x788 | x787 in {1}
+x789 | x788 in {1}
+x790 | x789 in {1}
+x791 | x790 in {1}
+x792 | x791 in {1}
+x793 | x792 in {1}
+x794 | x793 in {1}
+x795 | x794 in {1}
+x796 | x795 in {1}
+x797 | x796 in {1}
+x798 | x797 in {1}
+x799 | x798 in {1}
+x800 | x799 in {1}
+x801 | x800 in {1}
+x802 | x801 in {1}
+x803 | x802 in {1}
+x804 | x803 in {1}
+x805 | x804 in {1}
+x806 | x805 in {1}
+x807 | x806 in {1}
+x808 | x807 in {1}
+x809 | x808 in {1}
+x810 | x809 in {1}
+x811 | x810 in {1}
+x812 | x811 in {1}
+x813 | x812 in {1}
+x814 | x813 in {1}
+x815 | x814 in {1}
+x816 | x815 in {1}
+x817 | x816 in {1}
+x818 | x817 in {1}
+x819 | x818 in {1}
+x820 | x819 in {1}
+x821 | x820 in {1}
+x822 | x821 in {1}
+x823 | x822 in {1}
+x824 | x823 in {1}
+x825 | x824 in {1}
+x826 | x825 in {1}
+x827 | x826 in {1}
+x828 | x827 in {1}
+x829 | x828 in {1}
+x830 | x829 in {1}
+x831 | x830 in {1}
+x832 | x831 in {1}
+x833 | x832 in {1}
+x834 | x833 in {1}
+x835 | x834 in {1}
+x836 | x835 in {1}
+x837 | x836 in {1}
+x838 | x837 in {1}
+x839 | x838 in {1}
+x840 | x839 in {1}
+x841 | x840 in {1}
+x842 | x841 in {1}
+x843 | x842 in {1}
+x844 | x843 in {1}
+x845 | x844 in {1}
+x846 | x845 in {1}
+x847 | x846 in {1}
+x848 | x847 in {1}
+x849 | x848 in {1}
+x850 | x849 in {1}
+x851 | x850 in {1}
+x852 | x851 in {1}
+x853 | x852 in {1}
+x854 | x853 in {1}
+x855 | x854 in {1}
+x856 | x855 in {1}
+x857 | x856 in {1}
+x858 | x857 in {1}
+x859 | x858 in {1}
+x860 | x859 in {1}
+x861 | x860 in {1}
+x862 | x861 in {1}
+x863 | x862 in {1}
+x864 | x863 in {1}
+x865 | x864 in {1}
+x866 | x865 in {1}
+x867 | x866 in {1}
+x868 | x867 in {1}
+x869 | x868 in {1}
+x870 | x869 in {1}
+x871 | x870 in {1}
+x872 | x871 in {1}
+x873 | x872 in {1}
+x874 | x873 in {1}
+x875 | x874 in {1}
+x876 | x875 in {1}
+x877 | x876 in {1}
+x878 | x877 in {1}
+x879 | x878 in {1}
+x880 | x879 in {1}
+x881 | x880 in {1}
+x882 | x881 in {1}
+x883 | x882 in {1}
+x884 | x883 in {1}
+x885 | x884 in {1}
+x886 | x885 in {1}
+x887 | x886 in {1}
+x888 | x887 in {1}
+x889 | x888 in {1}
+x890 | x889 in {1}
+x891 | x890 in {1}
+x892 | x891 in {1}
+x893 | x892 in {1}
+x894 | x893 in {1}
+x895 | x894 in {1}
+x896 | x895 in {1}
+x897 | x896 in {1}
+x898 | x897 in {1}
+x899 | x898 in {1}
+x900 | x899 in {1}
+x901 | x900 in {1}
+x902 | x901 in {1}
+x903 | x902 in {1}
+x904 | x903 in {1}
+x905 | x904 in {1}
+x906 | x905 in {1}
+x907 | x906 in {1}
+x908 | x907 in {1}
+x909 | x908 in {1}
+x910 | x909 in {1}
+x911 | x910 in {1}
+x912 | x911 in {1}
+x913 | x912 in {1}
+x914 | x913 in {1}
+x915 | x914 in {1}
+x916 | x915 in {1}
+x917 | x916 in {1}
+x918 | x917 in {1}
+x919 | x918 in {1}
+x920 | x919 in {1}
+x921 | x920 in {1}
+x922 | x921 in {1}
+x923 | x922 in {1}
+x924 | x923 in {1}
+x925 | x924 in {1}
+x926 | x925 in {1}
+x927 | x926 in {1}
+x928 | x927 in {1}
+x929 | x928 in {1}
+x930 | x929 in {1}
+x931 | x930 in {1}
+x932 | x931 in {1}
+x933 | x932 in {1}
+x934 | x933 in {1}
+x935 | x934 in {1}
+x936 | x935 in {1}
+x937 | x936 in {1}
+x938 | x937 in {1}
+x939 | x938 in {1}
+x940 | x939 in {1}
+x941 | x940 in {1}
+x942 | x941 in {1}
+x943 | x942 in {1}
+x944 | x943 in {1}
+x945 | x944 in {1}
+x946 | x945 in {1}
+x947 | x946 in {1}
+x948 | x947 in {1}
+x949 | x948 in {1}
+x950 | x949 in {1}
+x951 | x950 in {1}
+x952 | x951 in {1}
+x953 | x952 in {1}
+x954 | x953 in {1}
+x955 | x954 in {1}
+x956 | x955 in {1}
+x957 | x956 in {1}
+x958 | x957 in {1}
+x959 | x958 in {1}
+x960 | x959 in {1}
+x961 | x960 in {1}
+x962 | x961 in {1}
+x963 | x962 in {1}
+x964 | x963 in {1}
+x965 | x964 in {1}
+x966 | x965 in {1}
+x967 | x966 in {1}
+x968 | x967 in {1}
+x969 | x968 in {1}
+x970 | x969 in {1}
+x971 | x970 in {1}
+x972 | x971 in {1}
+x973 | x972 in {1}
+x974 | x973 in {1}
+x975 | x974 in {1}
+x976 | x975 in {1}
+x977 | x976 in {1}
+x978 | x977 in {1}
+x979 | x978 in {1}
+x980 | x979 in {1}
+x981 | x980 in {1}
+x982 | x981 in {1}
+x983 | x982 in {1}
+x984 | x983 in {1}
+x985 | x984 in {1}
+x986 | x985 in {1}
+x987 | x986 in {1}
+x988 | x987 in {1}
+x989 | x988 in {1}
+x990 | x989 in {1}
+x991 | x990 in {1}
+x992 | x991 in {1}
+x993 | x992 in {1}
+x994 | x993 in {1}
+x995 | x994 in {1}
+x996 | x995 in {1}
+x997 | x996 in {1}
+x998 | x997 in {1}
+x999 | x998 in {1}

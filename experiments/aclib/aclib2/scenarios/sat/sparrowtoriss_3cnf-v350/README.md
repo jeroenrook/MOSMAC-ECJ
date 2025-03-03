@@ -1,0 +1,1 @@
+This scenarios originates from the Configurable SAT Solver Competition (CSSC) 2014: http://aclib.net/cssc2014/

@@ -1,0 +1,10 @@
+algo = python3 ./target_algorithms/tsp/eax/wrapper.py --sol-file ./instances/tsp/sets/tsp-rue-1000-3000/optimum-RUE.txt 
+paramfile = ./target_algorithms/tsp/eax/params.pcs
+execdir = .
+deterministic = 0
+run_obj = runtime
+overall_obj = mean10
+cutoff_time = 86
+wallclock_limit = 86400
+instance_file = instances/tsp/sets/tsp-rue-1000-3000/training.txt
+test_instance_file = instances/tsp/sets/tsp-rue-1000-3000/test.txt

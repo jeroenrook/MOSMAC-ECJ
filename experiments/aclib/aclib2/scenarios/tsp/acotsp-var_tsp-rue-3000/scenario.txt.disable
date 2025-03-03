@@ -1,0 +1,10 @@
+algo = python -u ./target_algorithms/tsp/acotsp-var/wrapper.py --mem-limit 3000 --opt_fn  ./instances/tsp/data/tsp-rue-3000/RUE.Instances.3000.optimal.txt
+execdir = .
+deterministic = 0
+run_obj = quality
+overall_obj = mean
+cutoff_time = 20
+instance_file = ./instances/tsp/sets/tsp-rue-3000/training.txt
+test_instance_file = ./instances/tsp/sets/tsp-rue-3000/test.txt
+paramfile = ./target_algorithms/tsp/acotsp-var/params.pcs
+runcount_limit = 20000

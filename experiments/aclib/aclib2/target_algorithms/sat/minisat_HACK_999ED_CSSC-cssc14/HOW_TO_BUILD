@@ -1,0 +1,16 @@
+=================================
+==== MiniSat_HACK_999ED_CSSC ====
+=================================
+
+Chanseok Oh (chanseok@cs.nyu.edu)
+New York University
+NY, USA
+
+
+HOW TO BUILD
+------------
+To build, `cd' into where `build.sh' is located.
+
+   $ ./build.sh
+
+This will generate an executable `minisat_HACK_999ED_CSSC_static'.

@@ -1,0 +1,103 @@
+Index: acotsp.c
+===================================================================
+--- acotsp.c	(revision 81)
++++ acotsp.c	(working copy)
+@@ -579,6 +579,7 @@
+     for ( n_try = 0 ; n_try < max_tries ; n_try++ ) {
+ 
+ 	init_try(n_try);
++        write_report();
+ 
+ 	while ( !termination_condition() ) {
+ 
+Index: ants.c
+===================================================================
+--- ants.c	(revision 81)
++++ ants.c	(working copy)
+@@ -925,8 +925,8 @@
+ 	two_opt_first( ant[0].tour );
+     }
+     n_tours += 1;
+-/*   copy_from_to( &ant[0], best_so_far_ant ); */
+     ant[0].tour_length = compute_tour_length( ant[0].tour );
++    copy_from_to( &ant[0], best_so_far_ant );
+ 
+     help = ant[0].tour_length;
+     ant_empty_memory( &ant[0] );
+Index: InOut.h
+===================================================================
+--- InOut.h	(revision 81)
++++ InOut.h	(working copy)
+@@ -51,7 +51,7 @@
+ ***************************************************************************/
+ 
+ 
+-#define PROG_ID_STR      "\nACO algorithms for the TSP, v1.04\n"
++#define PROG_ID_STR      "\nACO algorithms for the TSP, v1.04-tuning\n"
+ #define CALL_SYNTAX_STR  "call syntax:  acotsp <param-list>\n"
+ 
+ #define LINE_BUF_LEN     255
+Index: Makefile
+===================================================================
+--- Makefile	(revision 81)
++++ Makefile	(working copy)
+@@ -1,9 +1,16 @@
+ # Makefile for ACOTSP
+-VERSION=1.04
++VERSION=1.04-tuning
+ 
++DEBUG=0
++ifneq ($(DEBUG),0)
++DEBUGFLAGS=-g3 -DMALLOC_CHECK_=3
++else
++DEBUGFLAGS=
++endif
++
+ OPTIM_FLAGS=-O
+ WARN_FLAGS=-Wall -ansi -pedantic
+-CFLAGS=$(WARN_FLAGS) $(OPTIM_FLAGS)
++CFLAGS=$(WARN_FLAGS) $(OPTIM_FLAGS) $(DEBUGFLAGS)
+ # To change the default timer implementation, uncomment the line below
+ # or call 'make TIMER=unix'
+ TIMER=dos
+@@ -35,7 +42,7 @@
+ 
+ $(TIMER)_timer.o: $(TIMER)_timer.c timer.h
+ 
+-dist : DIST_SRC_FILES=*.c *.h README *.tsp Makefile gpl.txt
++dist : DIST_SRC_FILES=*.c *.h README *.tsp Makefile gpl.txt tuning.patch
+ dist : all
+ 	@(mkdir -p ../ACOTSP-$(VERSION)			\
+ 	&& rsync -rlpC --exclude=.svn $(DIST_SRC_FILES) ../ACOTSP-$(VERSION)/ \
+Index: README
+===================================================================
+--- README	(revision 81)
++++ README	(working copy)
+@@ -107,7 +107,27 @@
+ Thanks to the various users who have reported these problems!
+  
+ 
++tuning.patch
++=============
+ 
++There are some changes in the ants.c and acotsp.c files. These changes
++save the initial tour found:
++
++ ants.c: In function nn_tour adding of the line:
++    copy_from_to( &ant[0], best_so_far_ant);
++ 
++ acotsp.c: In main after the call init_try(n_try);
++           adding of write_report(); 
++    
++These changes were made due to a bug
++(http://sourceware.org/bugzilla/show_bug.cgi?id=13932) in the libc
++library, specifically in the pow function only for 64 bits
++processors. This was making the execution of acotsp much slower and
++not producing any solution before the termination criterion.
++
++./acotsp --time 20 --tries 1 -i 1500-6.tsp --seed 545301 --acs --localsearch 3 --alpha 2.81 --beta 7.68 --rho 0.17 --ants 37 --nnls 9 --q0 0.59 --dlb 1
++
++
+ =========
+ CONTENTS
+ =========

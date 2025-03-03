@@ -1,0 +1,62 @@
+arena {1, 2, 3}[3] 
+arenacompact {true, false}[true] 
+arenasort {0, 1}[1] 
+binary {true, false}[true] 
+check {true, false}[false] 
+compact {true, false}[true] 
+compactint [10,100000][1000]i 
+compactlim [0.001,1][0.1] 
+compactmin [1,10000][100]i 
+elim {true, false}[true] 
+elimclslim [10,100000][1000]i 
+eliminit [10,100000][1000]i 
+elimint [100,1000000][10000]i 
+elimocclim [1,10000][100]i 
+elimroundsinit [1,500][5]il 
+elimrounds [1,200][2]il 
+emagluefast [0.0003,1][0.03] 
+emaglueslow [1e-7,1e-3][1e-5] 
+emajump [1e-7,1e-3][1e-5] 
+emasize [1e-7,1e-3][1e-5] 
+decompose {true, false}[true] 
+decomposerounds [1,100][1]i 
+hbr {true, false}[true] 
+hbrsizelim [10000000,100000000000][1000000000]i 
+keepglue [1,300][3]i 
+keepsize [1,300][3]i 
+leak {true, false}[true] 
+minimize {true, false}[true] 
+minimizedepth [10,100000][1000]i 
+phase {0, 1}[1] 
+posize [1,400][4]i 
+prefetch {true, false}[true] 
+probe {true, false}[true] 
+probeinit [5,50000][500]i 
+probeint [100,1000000][10000]i 
+probereleff [0.0002,1][0.02] 
+probemaxeff [1e5,1e9][1e7] 
+probemineff [1000,10000000][100000] 
+reduceinc [3,30000][300]i 
+reduceinit [20,200000][2000]i 
+rephase {true, false}[true] 
+rephaseint [1000,10000000][100000]i 
+restart {true, false}[true] 
+restartint [1,600][6]i 
+restartmargin [0,10][1.1] 
+reusetrail {true, false}[true] 
+simplify {true, false}[true] 
+strengthen {true, false}[true] 
+subsume {true, false}[true] 
+subsumebinlim [100,100000][10000]i 
+subsumeclslim [10,100000][1000]i 
+subsumeinc [100,1000000][10000]i 
+subsumeinit [100,1000000][10000]i 
+subsumeocclim [1,10000][100]i 
+transred {true, false}[true] 
+transredreleff [0.001,1][0.1] 
+transredmaxeff [1e5,1e9][1e7] 
+transredmineff [1000,10000000][100000] 
+vivify {true, false}[true] 
+vivifyreleff [0.0003,1][0.03] 
+vivifymaxeff [1e5,1e9][1e7] 
+vivifymineff [1000,10000000][100000] 

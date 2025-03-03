@@ -1,0 +1,10 @@
+algo = python3 target_algorithms/mip/cplex12.6/wrapper.py --mem-limit 1024 --obj-file ./instances/mip/sets/BCOL-CLS/solubility.txt
+execdir = .
+deterministic = 1
+run_obj = runtime
+cutoff_time = 10000
+wallclock_limit = 172800
+paramfile = ./target_algorithms/mip/cplex12.6/params.pcs
+instance_file = ./instances/mip/sets/BCOL-CLS/training.txt
+test_instance_file = ./instances/mip/sets/BCOL-CLS/test.txt
+feature_file = ./instances/mip/sets/BCOL-CLS/features.txt

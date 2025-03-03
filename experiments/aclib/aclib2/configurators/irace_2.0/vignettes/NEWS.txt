@@ -1,0 +1,233 @@
+2.1
+
+ * Fix CRAN errors in tests.
+ 
+2.0
+
+ * Minimum R version is 2.15. 
+
+ * Elitist irace by default, it can be disabled with parameter --elitist 0. 
+   (Leslie Pérez Cáceres, Manuel López-Ibáñez)
+
+ * The parameter --test-type gains two additional values:
+
+     t-test-bonferroni (t-test with Bonferroni's correction for multiple
+                        comparisons), 
+     t-test-holm (t-test with Holm's correction for multiple comparisons)
+
+   (Manuel López-Ibáñez)
+
+ * MPI does not create log files with --debug-level 0.
+   (Manuel López-Ibáñez)
+
+ * For simplicity, the parallel-irace-* scripts do not use an auxiliary
+   `tune-main` script.  For customizing them, make a copy and edit them
+   directly.
+   (Manuel López-Ibáñez)
+
+ * New parameters:
+   
+   --target-runner-retries : Retry target-runner this many times in case
+                             of error. 
+                                                   (Manuel López-Ibáñez)
+
+ * We print diversity measures after evaluating on each instance:
+   (Leslie Pérez Cáceres)
+
+   - Kendall's W (also known as Kendall's coefficient of concordance) If 1,
+     all candidates have ranked in the same order in all instances.  If 0, the
+     ranking of each candidate on each instance is essentially random.  
+
+             W = Friedman / (m * (k-1))
+   
+   - Spearman's rho: average (Spearman) correlation coefficient computed on the
+     ranks of all pairs of raters. If there are no repeated data values, a
+     perfect Spearman correlation of +1 or -1 occurs when each of the variables
+     is a perfect monotone function of the other.
+
+ * Many internal and external interfaces have changed. For example, now we
+   consistently use 'scenario' to denote the settings passed to irace and
+   'configuration' instead of 'candidate' to denote the parameter settings
+   passed to the target algorithm. Other changes are:
+
+   parameters$boundary -> parameters$domain
+   hookRun             -> targetRunner
+   hookEvaluate        -> targetEvaluator
+   tune-conf           -> scenario.txt
+   instanceDir         -> trainInstancesDir
+   instanceFile        -> trainInstancesFile
+   testInstanceDir     -> testInstancesDir
+   testInstanceFile    -> testInstancesFile
+
+ * Minimal example of configuring a MATLAB program
+   (thanks to Esteban Diaz Leiva)
+
+ * Paths to files or directories given in the scenario file are relative to the
+   scenario file (except for --log-file, which is an output file and it is
+   relative to --exec-dir). Paths given in the command-line are relative to the
+   current working directory. Given
+
+      $ cat scenario/scenario.txt
+      targetRunner <- "./target-runner"
+      $ irace -s scenario/scenario.txt
+
+   irace will search for "./scenario/target-runner", but given
+
+      $ irace -s scenario/scenario.txt --target-runner ./target-runner
+   
+   irace will search for "./target-runner".      (Manuel López-Ibáñez)
+
+ * New command-line wrapper for Windows installed at
+   'system.file("bin/irace.bat", package="irace")'
+   (thanks to Anthony Antoun)                                        
+
+ * Budget can be specified as maximum time (maxTime, --max-time) consumed by
+   the target algorithm. See the documentation for the details about how this
+   is handled.
+   (Leslie Pérez Cáceres, Manuel López-Ibáñez)
+
+
+1.07
+
+ * The best configurations found, either at the end or at each iteration of an
+   irace run, can now be applied to a set of test instances different from the
+   training instances. See options testInstanceDir, testInstanceFile,
+   testNbElites, and testIterationElites. (Leslie Pérez Cáceres, Manuel López-Ibáñez)
+
+ * The R interfaces of hookRun, hookEvaluate and hookRunParallel have changed.
+   See help(hook.run.default) and help(hook.evaluate.default) for examples of
+   the new interfaces.
+
+ * Printing of race progress now reports the actual configuration and instance
+   IDs, and numbers are printed in a more human-readable format.
+   (Leslie Pérez Cáceres, Manuel López-Ibáñez)
+
+ * Reduce memory use for very large values of maxExperiments.  
+   (Manuel López-Ibáñez, thanks to Federico Caselli for identifying the issue)
+
+ * New option --load-balancing (loadBalancing) for disabling load-balancing
+   when executing jobs in parallel. Load-balancing makes better use of
+   computing resources, but increases communication overhead. If this overhead
+   is large, disabling load-balancing may be faster.
+   (Manuel López-Ibáñez, thanks to Federico Caselli for identifying the issue)
+
+ * The option --parallel in Windows now uses load-balancing by default.
+   (Manuel López-Ibáñez)
+
+ * The wall-clock time after finishing each task is printed in the output.
+   (Manuel López-Ibáñez, thanks to Federico Caselli for providing an initial
+   patch)
+
+
+
+1.06
+
+ * Fix bug that could introduce spurious whitespace when printing the
+   final configurations. (Manuel López-Ibáñez)
+
+ * Fix bug if there are more initial candidates than needed for the
+   first race. (Leslie Pérez Cáceres, Manuel López-Ibáñez)
+
+ * New configuration options, mainly for R users:
+                    
+   - hookRunParallel: Optional R function to provide custom
+     parallelization of hook.run.
+
+   - hookRunData: Optional data passed to hookRun. This is ignored by
+     the default hookRun function, but it may be used by custom hookRun R
+     functions to pass persistent data around.
+   (Manuel López-Ibáñez)
+
+1.05
+
+ * New option --version. (Manuel López-Ibáñez)
+
+ * Terminate early if there is no sufficient budget to run irace with
+   the given settings. (Manuel López-Ibáñez)
+
+ * The option --parallel (without --mpi) now works under Windows.
+   (Manuel López-Ibáñez, thanks to Pablo Valledor Pellicer for testing
+   it)
+
+ * Improved error handling when running under Rmpi. Now irace will
+   terminate as soon as the master node detects at least one failed
+   slave node. This avoids irace reporting two times the same error.
+   Also, irace will print all the unique errors returned by all slaves
+   and not just the first one.
+   (Manuel López-Ibáñez)
+
+ * Forbidden configurations may be specified in terms of constraints
+   on their values. Forbidden configurations will never be evaluated by irace. 
+   See --forbidden-file and inst/templates/forbidden.tmpl.
+   (Manuel López-Ibáñez)
+
+ * New option --recovery-file (recoveryFile) allows resuming a
+   previous irace run. (Leslie Pérez Cáceres)
+
+ * The confidence level for the elimination test is now
+   configurable with parameter --confidence. (Leslie Pérez Cáceres)
+
+ * Much more robust handling of relative/absolute paths. Improved support
+   for Windows. (Leslie Pérez Cáceres, Manuel López-Ibáñez)
+
+ * Provide better error messages for incorrect parameter
+   descriptions. (Manuel López-Ibáñez)
+    Examples:
+
+    x "" i (0, 0)       # lower and upper bounds are the same
+    x "" r (1e-4, 5e-4) # given digits=2, ditto
+    x "" i (-1, -2)     # lower bound must be smaller than upper bound
+    x "" c ("a", "a")   # duplicated values
+ 
+ * Print elapsed time for calls to hook-run if debugLevel >=1.
+   (Manuel López-Ibáñez)
+
+ * examples/hook-run-python/hook-run: A multi-purpose hook-run written
+   in Python. (Franco Mascia)
+
+ * Parallel mode in an SGE cluster (--sge-cluster) is more
+   robust. (Manuel López-Ibáñez)
+
+1.04
+
+ * Replace obsolete package multicore by package parallel
+   (requires R >= 2.14.0)
+
+ * Use load-balancing (mc.preschedule = FALSE) in mclapply.
+
+1.03
+
+ * Use reg.finalizer to finish Rmpi properly without clobbering
+   .Last().
+
+ * Remove uses of deprecated as.real().
+
+ * Nicer error handling in readParameters.
+
+ * Add hypervolume (multi-objective) example.
+
+ * Fix several bugs in the computation of similar candidates.
+
+1.02
+
+ * More concise output.
+
+ * The parameters expName and expDescription are now useless and they
+   were removed.
+
+ * Faster computation of similar candidates (Jeremie Dubois-Lacoste
+   and Leslie Pérez Cáceres).
+
+ * Fix bug when saving instances in tunerResults$experiments.
+
+ * irace.cmdline ("--help") does not try to quit R anymore.
+
+1.01
+
+ * Fix bug caused by file.exists (and possibly other functions)
+   not handling directory names with a trailing backslash or slash on
+   Windows.
+ 
+ * Fix bug using per-instance parameters (Leslie Pérez Cáceres).
+
+ * Fix bug when reading initial candidates from a file.

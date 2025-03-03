@@ -1,0 +1,11 @@
+algo = python3 -u ./target_algorithms/sat/glucose-syrup-41-small/wrapper.py --mem-limit 3000 --sat-checker ./target_algorithms/sat/tools/SAT --sol-file ./instances/sat/sets/BMC08-CSSC14/solubility.txt 
+execdir = .
+deterministic = 0
+run_obj = runtime
+overall_obj = mean10
+cutoff_time = 300
+instance_file = ./instances/sat/sets/BMC08-CSSC14/training.txt
+test_instance_file = ./instances/sat/sets/BMC08-CSSC14/test.txt
+feature_file = ./instances/sat/sets/BMC08-CSSC14/features.txt
+paramfile = ./target_algorithms/sat/glucose-syrup-41-small/params.pcs
+wallclock_limit = 172800

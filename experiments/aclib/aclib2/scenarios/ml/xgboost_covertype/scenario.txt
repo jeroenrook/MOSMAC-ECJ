@@ -1,0 +1,9 @@
+algo = python3 ./target_algorithms/ml/xgboost/wrapper.py --mem-limit 3000 --max_quality 1 --dataset instances/ml/data/covertype/dataset.np.txt
+execdir = .
+deterministic = 1
+run_obj = quality
+cutoff_time = 1000
+paramfile = ./target_algorithms/ml/xgboost/params.pcs
+instance_file = ./instances/ml/sets/covertype/training.txt
+test_instance_file = ./instances/ml/sets/covertype/test.txt
+runcount_limit = 500

@@ -1,0 +1,10 @@
+algo = python3 ./target_algorithms/planning/lpg/wrapper.py --mem-limit 3000 --solution-validator ./target_algorithms/planning/VAL/validate --problem-enc ./instances/planning/data/zenotravel/zenotravel.pddl
+execdir = .
+deterministic = 0
+run_obj = runtime
+cutoff_time = 300
+wallclock_limit = 172800 
+paramfile = ./target_algorithms/planning/lpg/params.pcs
+instance_file = ./instances/planning/sets/zenotravel/training.txt
+test_instance_file = ./instances/planning/sets/zenotravel/test.txt
+feature_file = ./instances/planning/sets/zenotravel/features.txt

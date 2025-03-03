@@ -1,0 +1,10 @@
+algo = python3 ./target_algorithms/asp/clasp-3.1.4/wrapper.py --mem-limit 3096
+execdir = .
+deterministic = 0
+run_obj = runtime
+cutoff_time = 300
+wallclock_limit = 86400
+paramfile =  ./target_algorithms/asp/clasp-3.1.4/params.pcs
+instance_file = ./instances/asp/sets/ricochet/training.txt
+test_instance_file = ./instances/asp/sets/ricochet/test.txt
+feature_file = ./instances/asp/sets/ricochet/features.txt

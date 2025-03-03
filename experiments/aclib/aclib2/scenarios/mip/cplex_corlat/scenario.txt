@@ -1,0 +1,10 @@
+algo = python3 target_algorithms/mip/cplex12.6/wrapper.py --mem-limit 1024 --obj-file ./instances/mip/sets/COR-LAT/solubility.txt
+execdir = .
+deterministic = 1
+run_obj = runtime
+cutoff_time = 10000
+wallclock_limit = 172800
+paramfile = ./target_algorithms/mip/cplex12.6/params.pcs
+instance_file = ./instances/mip/sets/COR-LAT/training.txt
+test_instance_file = ./instances/mip/sets/COR-LAT/test.txt
+feature_file = ./instances/mip/sets/COR-LAT/features.txt

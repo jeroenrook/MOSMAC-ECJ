@@ -1,0 +1,11 @@
+execdir = .
+algo = python3 -u ./target_algorithms/sat/SparrowToRiss-cssc14/wrapper.py --mem-limit 3000 --sat-checker ./target_algorithms/sat/tools/SAT 
+deterministic = 0
+run_obj = runtime
+overall_obj = mean10
+cutoff_time = 300
+instance_file = ./instances/sat/sets/QUEENS-CSSC14/training.txt
+test_instance_file = ./instances/sat/sets/QUEENS-CSSC14/test.txt
+feature_file = ./instances/sat/sets/QUEENS-CSSC14/features.txt
+paramfile = ./target_algorithms/sat/SparrowToRiss-cssc14/params.pcs
+wallclock_limit = 172800

@@ -1,0 +1,16 @@
+asp_preprocessor.o: ../../../libclasp/src/asp_preprocessor.cpp \
+ ../../../libclasp/clasp/asp_preprocessor.h \
+ ../../../libclasp/clasp/claspfwd.h ../../../libclasp/clasp/literal.h \
+ ../../../libclasp/clasp/util/platform.h \
+ ../../../libclasp/clasp/pod_vector.h \
+ ../../../libclasp/clasp/util/pod_vector.h \
+ ../../../libclasp/clasp/util/type_manip.h \
+ ../../../libclasp/clasp/logic_program.h \
+ ../../../libclasp/clasp/logic_program_types.h \
+ ../../../libclasp/clasp/program_builder.h \
+ ../../../libclasp/clasp/util/misc_types.h \
+ ../../../libclasp/clasp/shared_context.h \
+ ../../../libclasp/clasp/constraint.h \
+ ../../../libclasp/clasp/util/left_right_sequence.h \
+ ../../../libclasp/clasp/util/atomic.h \
+ ../../../libclasp/clasp/solver_strategies.h

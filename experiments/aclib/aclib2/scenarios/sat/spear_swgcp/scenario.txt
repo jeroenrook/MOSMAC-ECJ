@@ -1,0 +1,11 @@
+algo = python3 -u ./target_algorithms/sat/spear/wrapper.py --mem-limit 1024 --sat-checker ./target_algorithms/sat/tools/SAT --sol-file ./instances/sat/sets/SWGCP/solubility.txt
+paramfile = ./target_algorithms/sat/spear/params.pcs
+execdir = . 
+deterministic = 0
+run_obj = runtime
+overall_obj = mean10
+cutoff_time = 5
+wallclock_limit = 18000
+instance_file = instances/sat/sets/SWGCP/training.txt 
+test_instance_file = instances/sat/sets/SWGCP/test.txt
+feature_file = instances/sat/sets/SWGCP/features.txt

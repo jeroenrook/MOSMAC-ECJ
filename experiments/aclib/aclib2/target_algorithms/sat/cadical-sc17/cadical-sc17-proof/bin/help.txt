@@ -1,0 +1,106 @@
+usage: cadical [ <option> ... ] [ <dimacs> [ <proof> ] ]
+
+where '<option>' is one of the following short options
+
+  -h         print this command line option summary
+  -n         do not print witness (same as '--no-witness')
+  -v         increase verbose level (see also '--verbose')
+  -q         quiet (same as '--quiet')
+  -f         force to read broken DIMACS header (same as '--force')
+
+  -c         check witness on formula (same as '--check')
+
+  -s <sol>   read solution in competition output format
+             to check consistency of learned clauses
+             during testing and debugging (implies '-c')
+
+or '<option>' can be one of the following long options
+
+  --arena=<int>              1=clause,2=var,3=queue [3]
+  --arenacompact=<bool>      keep clauses compact [true]
+  --arenasort=<int>          sort clauses after arenaing [1]
+  --binary=<bool>            use binary proof format [true]
+  --check=<bool>             save & check original CNF [false]
+  --clim=<int>               conflict limit (-1=none) [-1]
+  --compact=<bool>           enable compactification [true]
+  --compactint=<int>         compactification conflic tlimit [1000]
+  --compactlim=<double>      inactive variable limit [0.1]
+  --compactmin=<int>         inactive variable limit [100]
+  --dlim=<int>               decision limit (-1=none) [-1]
+  --elim=<bool>              bounded variable elimination [true]
+  --elimclslim=<int>         ignore clauses of this size [1000]
+  --eliminit=<int>           initial conflict limit [1000]
+  --elimint=<int>            initial conflict interval [10000]
+  --elimocclim=<int>         one sided occurrence limit [100]
+  --elimroundsinit=<int>     initial number of rounds [5]
+  --elimrounds=<int>         usual number of rounds [2]
+  --emagluefast=<double>     alpha fast glue [0.03]
+  --emaglueslow=<double>     alpha slow glue [1e-05]
+  --emajump=<double>         alpha jump level [1e-05]
+  --emasize=<double>         alpha learned clause size [1e-05]
+  --decompose=<bool>         SCC decompose BIG and ELS [true]
+  --decomposerounds=<int>    number of decompose rounds [1]
+  --force=<bool>             force to read broken header [false]
+  --hbr=<bool>               learn hyper binary clauses [true]
+  --hbrsizelim=<int>         max size HBR base clause [1000000000]
+  --keepglue=<int>           glue kept learned clauses [3]
+  --keepsize=<int>           size kept learned clauses [3]
+  --leak=<bool>              leak solver memory [true]
+  --minimize=<bool>          minimize learned clauses [true]
+  --minimizedepth=<int>      minimization depth [1000]
+  --phase=<int>              initial phase: 0=neg,1=pos [1]
+  --posize=<int>             size for saving position [4]
+  --prefetch=<bool>          prefetch watches [true]
+  --probe=<bool>             failed literal probing [true]
+  --probeinit=<int>          initial probing interval [500]
+  --probeint=<int>           probing interval increment [10000]
+  --probereleff=<double>     relative probing efficiency [0.02]
+  --probemaxeff=<double>     maximum probing efficiency [1e+07]
+  --probemineff=<double>     minimum probing efficiency [100000]
+  --profile=<int>            profiling level [2]
+  --quiet=<bool>             disable all messages [false]
+  --reduceinc=<int>          reduce limit increment [300]
+  --reduceinit=<int>         initial reduce limit [2000]
+  --rephase=<bool>           enable rephasing [true]
+  --rephaseint=<int>         rephasing interval [100000]
+  --restart=<bool>           enable restarting [true]
+  --restartint=<int>         restart base interval [6]
+  --restartmargin=<double>   restart slow fast margin [1.1]
+  --reusetrail=<bool>        enable trail reuse [true]
+  --simplify=<bool>          enable simplifier [true]
+  --strengthen=<bool>        strengthen during subsume [true]
+  --subsume=<bool>           enable clause subsumption [true]
+  --subsumebinlim=<int>      watch list length limit [10000]
+  --subsumeclslim=<int>      clause length limit [1000]
+  --subsumeinc=<int>         interval in conflicts [10000]
+  --subsumeinit=<int>        initial subsume limit [10000]
+  --subsumeocclim=<int>      watch list length limit [100]
+  --transred=<bool>          transitive reduction of BIG [true]
+  --transredreleff=<double>  relative efficiency [0.1]
+  --transredmaxeff=<double>  maximum efficiency [1e+07]
+  --transredmineff=<double>  minimum efficiency [100000]
+  --verbose=<int>            more verbose messages [0]
+  --vivify=<bool>            vivification [true]
+  --vivifyreleff=<double>    relative efficiency [0.03]
+  --vivifymaxeff=<double>    maximum efficiency [1e+07]
+  --vivifymineff=<double>    minimum efficiency [100000]
+  --witness=<bool>           print witness [true]
+
+The long options have their default value printed in brackets
+after their description.  They can also be used in the form
+'--<name>' which is equivalent to '--<name>=1' and in the form
+'--no-<name>' which is equivalent to '--<name>=0'.
+
+Then '<dimacs>' has to be a DIMACS file and in '<drat>' a DRAT
+proof is saved.  If no '<proof>' file is specified, then no proof
+is generated.  If no '<dimacs>' is given then '<stdin>' is used.
+If '-' is used as '<dimacs>' then the solver reads from '<stdin>'.
+If '-' is specified for '<proof> then a proof is generated and
+printed to '<stdout>'.  The proof is by default stored in binary
+format unless '--binary=0' or the proof is written to '<stdout>'
+and '<stdout>' is connected to a terminal.
+
+The input is assumed to be compressed if it is given explicitly
+and has a '.gz', '.bz2', '.xz or '.7z' suffix.  The same applies to
+the output file.  For compression and decompression the utilities
+'gzip', 'bzip', '7z', and 'xz' are needed.

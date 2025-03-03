@@ -1,0 +1,3 @@
+Licensed under LGPLv2
+
+M4RI licensed under GPLv2. It is trivial to build without M4RI, see CMakeFiles.txt for details

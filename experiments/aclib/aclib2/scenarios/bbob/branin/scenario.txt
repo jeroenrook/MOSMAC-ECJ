@@ -1,0 +1,11 @@
+algo = python3 target_algorithms/bbob/branin/braninWrapper.py
+execdir = .
+deterministic = 1
+run_obj = quality
+cutoff_time = 10
+runcount_limit = 100
+wallclock_limit = 1720
+paramfile = ./target_algorithms/bbob/branin/params.pcs
+instance_file = ./instances/bbob/sets/branin/training.txt
+test_instance_file = ./instances/bbob/sets/branin/test.txt
+feature_file = ./instances/bbob/sets/branin/features.txt

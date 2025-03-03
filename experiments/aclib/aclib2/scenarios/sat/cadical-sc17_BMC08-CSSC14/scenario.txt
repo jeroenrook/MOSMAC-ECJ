@@ -1,0 +1,11 @@
+algo = python3 ./target_algorithms/sat/cadical-sc17/wrapper.py --sol-file ./instances/sat/sets/BMC08-CSSC14/solubility.txt
+paramfile = ./target_algorithms/sat/cadical-sc17/params.pcs
+execdir = .
+deterministic = 0
+run_obj = runtime
+overall_obj = mean10
+cutoff_time = 300
+wallclock_limit = 172800
+instance_file = instances/sat/sets/BMC08-CSSC14/training.txt
+test_instance_file = instances/sat/sets/BMC08-CSSC14/test.txt
+feature_file = instances/sat/sets/BMC08-CSSC14/features.txt

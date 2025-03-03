@@ -1,0 +1,28 @@
+clasp_output.o: ../../../libclasp/src/clasp_output.cpp \
+ ../../../libclasp/clasp/cli/clasp_output.h \
+ ../../../libclasp/clasp/clasp_facade.h \
+ ../../../libclasp/clasp/program_builder.h \
+ ../../../libclasp/clasp/literal.h \
+ ../../../libclasp/clasp/util/platform.h \
+ ../../../libclasp/clasp/pod_vector.h \
+ ../../../libclasp/clasp/util/pod_vector.h \
+ ../../../libclasp/clasp/util/type_manip.h \
+ ../../../libclasp/clasp/claspfwd.h \
+ ../../../libclasp/clasp/util/misc_types.h \
+ ../../../libclasp/clasp/logic_program.h \
+ ../../../libclasp/clasp/logic_program_types.h \
+ ../../../libclasp/clasp/enumerator.h \
+ ../../../libclasp/clasp/constraint.h \
+ ../../../libclasp/clasp/minimize_constraint.h \
+ ../../../libclasp/clasp/util/atomic.h \
+ ../../../libclasp/clasp/shared_context.h \
+ ../../../libclasp/clasp/util/left_right_sequence.h \
+ ../../../libclasp/clasp/solver_strategies.h \
+ ../../../libclasp/clasp/solve_algorithms.h \
+ ../../../libclasp/clasp/dependency_graph.h \
+ ../../../libclasp/clasp/solver_types.h \
+ ../../../libclasp/clasp/util/type_manip.h \
+ ../../../libclasp/clasp/solver.h ../../../libclasp/clasp/satelite.h \
+ ../../../libclasp/clasp/util/indexed_priority_queue.h \
+ ../../../libclasp/clasp/util/pod_vector.h \
+ ../../../libclasp/clasp/util/timer.h

@@ -1,0 +1,24 @@
+The usage of GGA++ is limited for academic, non-profit research purposes only.
+
+Reference:
+
+@inproceedings{AnsoteguiMSST15,
+  author    = {Carlos Ans{\'{o}}tegui and
+               Yuri Malitsky and
+               Horst Samulowitz and
+               Meinolf Sellmann and
+               Kevin Tierney},
+  title     = {Model-Based Genetic Algorithms for Algorithm Configuration},
+  pages     = {733--739},
+  crossref  = {ijcai15}
+}
+
+@proceedings{ijcai15,
+  editor    = {Qiang Yang and
+               Michael Wooldridge},
+  booktitle = {Proceedings of the Twenty-Fourth International Joint Conference on
+               Artificial Intelligence, {IJCAI} 2015, Buenos Aires, Argentina, July
+               25-31, 2015},
+  publisher = {{AAAI} Press},
+  year      = {2015}
+}

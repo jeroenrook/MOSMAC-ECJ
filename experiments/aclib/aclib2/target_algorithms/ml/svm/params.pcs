@@ -1,0 +1,14 @@
+C [0.03125, 32768][1]l
+kernel {linear,rbf,poly,sigmoid}[rbf]
+degree [1,9][3]i
+gamma {scale,auto,float}[scale]
+gamma_val [ 0.000030517578125, 8][0.1]l
+coef0 [-1,1][0]
+shrinking{True,False}[True]
+tol[0.00001,0.1][0.0001]l
+cache_size [16,1024][200]il
+max_iter {10,50,100,150,200,250,375,500,750,1000,2000,3000,4000,5000}[1000]
+
+degree | kernel in {poly}
+coef0 | kernel in {poly,sigmoid}
+gamma_val | gamma in {float}

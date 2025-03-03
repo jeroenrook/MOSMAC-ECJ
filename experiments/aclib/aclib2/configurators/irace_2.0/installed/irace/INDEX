@@ -1,0 +1,32 @@
+buildCommandLine        Build a Command Line
+checkIraceScenario      checkIraceScenario
+checkScenario           checkScenario
+configurations.print    configurations.print
+configurations.print.command
+                        configurations.print.command
+defaultScenario         defaultScenario
+getConfigurationById    getConfigurationById
+getConfigurationByIteration
+                        getConfigurationByIteration
+getFinalElites          getFinalElites
+irace                   irace
+irace-package           The irace package
+irace.cmdline           irace.cmdline
+irace.license           irace.license
+irace.main              irace.main
+irace.usage             irace.usage
+irace.version           irace.version
+parallelCoordinatesPlot
+                        parallelCoordinatesPlot
+parameterFrequency      parameterFrequency
+printScenario           printScenario
+readConfigurationsFile
+                        readConfigurationsFile
+readParameters          readParameters
+readScenario            readScenario
+removeConfigurationsMetaData
+                        removeConfigurationsMetaData
+target.evaluator.default
+                        target.evaluator.default
+target.runner.default   target.runner.default
+testing.main            testing.main

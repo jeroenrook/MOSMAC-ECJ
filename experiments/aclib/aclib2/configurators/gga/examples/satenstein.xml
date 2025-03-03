@@ -1,0 +1,389 @@
+<algtune>
+    <cmd> solve_instance_hydra.sh satori $cutoff $seed $instance $solver $satenstein_novnoise $satenstein_selectclause $satenstein_wp $satenstein_tabu $satenstein_wpwalk $satenstein_s $satenstein_c $satenstein_dp $satenstein_promdp $satenstein_promwp $satenstein_rwp $satenstein_rwpwalk $satenstein_rdp $satenstein_rfp $satenstein_adaptive $satenstein_adaptiveprom $satenstein_promisinglist $satenstein_singleclause $satenstein_performrandomwalk $satenstein_performalternatenovelty $satenstein_tabusearch $satenstein_clausepen $satenstein_varinfalse $satenstein_heuristic $satenstein_randomwalk $satenstein_tiebreaking $satenstein_updateschemepromlist $satenstein_adaptivenoisescheme $satenstein_scoringmeasure $satenstein_smoothingscheme $satenstein_decreasingvariable $satenstein_phi $satenstein_theta $satenstein_promphi $satenstein_promtheta $satenstein_adaptwalkprob $satenstein_adaptpromwalkprob $satenstein_alpha $satenstein_rho $satenstein_ps $satenstein_promnovnoise $satenstein_maxinc $satenstein_pflat
+    </cmd> 
+    <seedgenome>
+        	<variable name="root" value="0" />
+        	<variable name="solver" value="SATenstein" />
+		  	<variable name="satenstein_root" value="0" />
+		  	<variable name="satenstein_novnoise" value="0.50" />        
+			<variable name="satenstein_selectclause" value="1" />
+			<variable name="satenstein_wp" value="0.01" />
+			<variable name="satenstein_tabu" value="10" />
+			<variable name="satenstein_wpwalk" value="0.50" />
+			<variable name="satenstein_s" value="0.01" />
+			<variable name="satenstein_c" value="0.01" />
+			<variable name="satenstein_dp" value="0.05" />
+			<variable name="satenstein_promdp" value="0.05" />
+			<variable name="satenstein_promwp" value="0.01" />
+			<variable name="satenstein_rwp" value="0.01" />
+			<variable name="satenstein_rwpwalk" value="0.50" />
+			<variable name="satenstein_rdp" value="0.05" />
+			<variable name="satenstein_rfp" value="0.05" />
+			<variable name="satenstein_adaptive" value="1" />
+			<variable name="satenstein_adaptiveprom" value="0" />
+			<variable name="satenstein_promisinglist" value="1" />
+			<variable name="satenstein_singleclause" value="1" />
+			<variable name="satenstein_performrandomwalk" value="0" />
+			<variable name="satenstein_performalternatenovelty" value="0" />
+			<variable name="satenstein_tabusearch" value="0" />
+			<variable name="satenstein_clausepen" value="0" />
+			<variable name="satenstein_varinfalse" value="1" />
+			<variable name="satenstein_heuristic" value="1" />
+			<variable name="satenstein_randomwalk" value="1" />
+			<variable name="satenstein_tiebreaking" value="1" />
+			<variable name="satenstein_updateschemepromlist" value="1" />
+			<variable name="satenstein_adaptivenoisescheme" value="1" />
+			<variable name="satenstein_scoringmeasure" value="1" />
+			<variable name="satenstein_smoothingscheme" value="1" />
+			<variable name="satenstein_decreasingvariable" value="2" />
+			<variable name="satenstein_phi" value="5" />
+			<variable name="satenstein_theta" value="6" />
+			<variable name="satenstein_promphi" value="5" />
+			<variable name="satenstein_promtheta" value="6" />
+			<variable name="satenstein_adaptwalkprob" value="0" />
+			<variable name="satenstein_adaptpromwalkprob" value="0" />
+			<variable name="satenstein_alpha" value="1.3" />
+			<variable name="satenstein_rho" value="0.8" />
+			<variable name="satenstein_ps" value="0.40" />
+			<variable name="satenstein_promnovnoise" value="0.50" />
+			<variable name="satenstein_maxinc" value="10" />
+			<variable name="satenstein_pflat" value="0.15" />  
+	</seedgenome>
+	<seedgenome>	<!-- , SATenstein QCP -->
+        	<variable name="root" value="0" />
+        	<variable name="solver" value="SATenstein" />
+        	<variable name="satenstein_root" value="0" />
+		  	<variable name="satenstein_novnoise" value="0.50" />        
+			<variable name="satenstein_selectclause" value="1" />
+			<variable name="satenstein_wp" value="0.01" />
+			<variable name="satenstein_tabu" value="10" />
+			<variable name="satenstein_wpwalk" value="0.50" />
+			<variable name="satenstein_s" value="0.01" />
+			<variable name="satenstein_c" value="0.01" />
+			<variable name="satenstein_dp" value="0.05" />
+			<variable name="satenstein_promdp" value="0.05" />
+			<variable name="satenstein_promwp" value="0.01" />
+			<variable name="satenstein_rwp" value="0.01" />
+			<variable name="satenstein_rwpwalk" value="0.50" />
+			<variable name="satenstein_rdp" value="0.05" />
+			<variable name="satenstein_rfp" value="0.07" />
+			<variable name="satenstein_adaptive" value="0" />
+			<variable name="satenstein_adaptiveprom" value="0" />
+			<variable name="satenstein_promisinglist" value="0" />
+			<variable name="satenstein_singleclause" value="1" />
+			<variable name="satenstein_performrandomwalk" value="1" />
+			<variable name="satenstein_performalternatenovelty" value="0" />
+			<variable name="satenstein_tabusearch" value="0" />
+			<variable name="satenstein_clausepen" value="0" />
+			<variable name="satenstein_varinfalse" value="1" />
+			<variable name="satenstein_heuristic" value="5" />
+			<variable name="satenstein_randomwalk" value="4" />
+			<variable name="satenstein_tiebreaking" value="1" />
+			<variable name="satenstein_updateschemepromlist" value="1" />
+			<variable name="satenstein_adaptivenoisescheme" value="1" />
+			<variable name="satenstein_scoringmeasure" value="1" />
+			<variable name="satenstein_smoothingscheme" value="1" />
+			<variable name="satenstein_decreasingvariable" value="2" />
+			<variable name="satenstein_phi" value="5" />
+			<variable name="satenstein_theta" value="6" />
+			<variable name="satenstein_promphi" value="5" />
+			<variable name="satenstein_promtheta" value="6" />
+			<variable name="satenstein_adaptwalkprob" value="0" />
+			<variable name="satenstein_adaptpromwalkprob" value="0" />
+			<variable name="satenstein_alpha" value="1.3" />
+			<variable name="satenstein_rho" value="0.8" />
+			<variable name="satenstein_ps" value="0.40" />
+			<variable name="satenstein_promnovnoise" value="0.50" />
+			<variable name="satenstein_maxinc" value="10" />
+			<variable name="satenstein_pflat" value="0.15" />                                        
+    </seedgenome>
+    <seedgenome>	<!-- , SATenstein Fact -->
+        	<variable name="root" value="0" />
+        	<variable name="solver" value="SATenstein" />
+        	<variable name="satenstein_root" value="0" />
+		  	<variable name="satenstein_novnoise" value="0.50" />        
+			<variable name="satenstein_selectclause" value="1" />
+			<variable name="satenstein_wp" value="0.0" />
+			<variable name="satenstein_tabu" value="10" />
+			<variable name="satenstein_wpwalk" value="0.50" />
+			<variable name="satenstein_s" value="0.01" />
+			<variable name="satenstein_c" value="0.01" />
+			<variable name="satenstein_dp" value="0.05" />
+			<variable name="satenstein_promdp" value="0.05" />
+			<variable name="satenstein_promwp" value="0.01" />
+			<variable name="satenstein_rwp" value="0.01" />
+			<variable name="satenstein_rwpwalk" value="0.50" />
+			<variable name="satenstein_rdp" value="0.05" />
+			<variable name="satenstein_rfp" value="0.05" />
+			<variable name="satenstein_adaptive" value="0" />
+			<variable name="satenstein_adaptiveprom" value="0" />
+			<variable name="satenstein_promisinglist" value="0" />
+			<variable name="satenstein_singleclause" value="0" />
+			<variable name="satenstein_performrandomwalk" value="0" />
+			<variable name="satenstein_performalternatenovelty" value="0" />
+			<variable name="satenstein_tabusearch" value="0" />
+			<variable name="satenstein_clausepen" value="1" />
+			<variable name="satenstein_varinfalse" value="1" />
+			<variable name="satenstein_heuristic" value="1" />
+			<variable name="satenstein_randomwalk" value="1" />
+			<variable name="satenstein_tiebreaking" value="1" />
+			<variable name="satenstein_updateschemepromlist" value="1" />
+			<variable name="satenstein_adaptivenoisescheme" value="1" />
+			<variable name="satenstein_scoringmeasure" value="3" />
+			<variable name="satenstein_smoothingscheme" value="1" />
+			<variable name="satenstein_decreasingvariable" value="2" />
+			<variable name="satenstein_phi" value="5" />
+			<variable name="satenstein_theta" value="6" />
+			<variable name="satenstein_promphi" value="5" />
+			<variable name="satenstein_promtheta" value="6" />
+			<variable name="satenstein_adaptwalkprob" value="0" />
+			<variable name="satenstein_adaptpromwalkprob" value="0" />
+			<variable name="satenstein_alpha" value="1.126" />
+			<variable name="satenstein_rho" value="0.8" />
+			<variable name="satenstein_ps" value="0.033" />
+			<variable name="satenstein_promnovnoise" value="0.50" />
+			<variable name="satenstein_maxinc" value="10" />
+			<variable name="satenstein_pflat" value="0.15" />                                        
+    </seedgenome> 
+	<seedgenome>	<!-- , SATenstein Cmbc -->
+        	<variable name="root" value="0" />
+        	<variable name="solver" value="SATenstein" />
+        	<variable name="satenstein_root" value="0" />
+		  	<variable name="satenstein_novnoise" value="0.50" />        
+			<variable name="satenstein_selectclause" value="1" />
+			<variable name="satenstein_wp" value="0.01" />
+			<variable name="satenstein_tabu" value="10" />
+			<variable name="satenstein_wpwalk" value="0.50" />
+			<variable name="satenstein_s" value="0.01" />
+			<variable name="satenstein_c" value="0.01" />
+			<variable name="satenstein_dp" value="0.05" />
+			<variable name="satenstein_promdp" value="0.05" />
+			<variable name="satenstein_promwp" value="0.01" />
+			<variable name="satenstein_rwp" value="0.01" />
+			<variable name="satenstein_rwpwalk" value="0.50" />
+			<variable name="satenstein_rdp" value="0.05" />
+			<variable name="satenstein_rfp" value="0.05" />
+			<variable name="satenstein_adaptive" value="1" />
+			<variable name="satenstein_adaptiveprom" value="0" />
+			<variable name="satenstein_promisinglist" value="0" />
+			<variable name="satenstein_singleclause" value="0" />
+			<variable name="satenstein_performrandomwalk" value="1" />
+			<variable name="satenstein_performalternatenovelty" value="0" />
+			<variable name="satenstein_tabusearch" value="0" />
+			<variable name="satenstein_clausepen" value="1" />
+			<variable name="satenstein_varinfalse" value="1" />
+			<variable name="satenstein_heuristic" value="1" />
+			<variable name="satenstein_randomwalk" value="1" />
+			<variable name="satenstein_tiebreaking" value="1" />
+			<variable name="satenstein_updateschemepromlist" value="1" />
+			<variable name="satenstein_adaptivenoisescheme" value="1" />
+			<variable name="satenstein_scoringmeasure" value="1" />
+			<variable name="satenstein_smoothingscheme" value="1" />
+			<variable name="satenstein_decreasingvariable" value="2" />
+			<variable name="satenstein_phi" value="5" />
+			<variable name="satenstein_theta" value="6" />
+			<variable name="satenstein_promphi" value="5" />
+			<variable name="satenstein_promtheta" value="6" />
+			<variable name="satenstein_adaptwalkprob" value="0" />
+			<variable name="satenstein_adaptpromwalkprob" value="0" />
+			<variable name="satenstein_alpha" value="1.126" />
+			<variable name="satenstein_rho" value="1.0" />
+			<variable name="satenstein_ps" value="0.40" />
+			<variable name="satenstein_promnovnoise" value="0.50" />
+			<variable name="satenstein_maxinc" value="10" />
+			<variable name="satenstein_pflat" value="0.15" />                                        
+    </seedgenome> 
+	 <seedgenome>	<!-- , SATenstein R3fix -->
+        	<variable name="root" value="0" />
+        	<variable name="solver" value="SATenstein" />
+        	<variable name="satenstein_root" value="0" />
+		  	<variable name="satenstein_novnoise" value="0.50" />        
+			<variable name="satenstein_selectclause" value="1" />
+			<variable name="satenstein_wp" value="0.04" />
+			<variable name="satenstein_tabu" value="10" />
+			<variable name="satenstein_wpwalk" value="0.50" />
+			<variable name="satenstein_s" value="0.01" />
+			<variable name="satenstein_c" value="0.01" />
+			<variable name="satenstein_dp" value="0.05" />
+			<variable name="satenstein_promdp" value="0.05" />
+			<variable name="satenstein_promwp" value="0.01" />
+			<variable name="satenstein_rwp" value="0.01" />
+			<variable name="satenstein_rwpwalk" value="0.50" />
+			<variable name="satenstein_rdp" value="0.05" />
+			<variable name="satenstein_rfp" value="0.05" />
+			<variable name="satenstein_adaptive" value="1" />
+			<variable name="satenstein_adaptiveprom" value="0" />
+			<variable name="satenstein_promisinglist" value="0" />
+			<variable name="satenstein_singleclause" value="0" />
+			<variable name="satenstein_performrandomwalk" value="0" />
+			<variable name="satenstein_performalternatenovelty" value="0" />
+			<variable name="satenstein_tabusearch" value="0" />
+			<variable name="satenstein_clausepen" value="1" />
+			<variable name="satenstein_varinfalse" value="1" />
+			<variable name="satenstein_heuristic" value="1" />
+			<variable name="satenstein_randomwalk" value="1" />
+			<variable name="satenstein_tiebreaking" value="2" />
+			<variable name="satenstein_updateschemepromlist" value="1" />
+			<variable name="satenstein_adaptivenoisescheme" value="1" />
+			<variable name="satenstein_scoringmeasure" value="1" />
+			<variable name="satenstein_smoothingscheme" value="1" />
+			<variable name="satenstein_decreasingvariable" value="2" />
+			<variable name="satenstein_phi" value="5" />
+			<variable name="satenstein_theta" value="6" />
+			<variable name="satenstein_promphi" value="5" />
+			<variable name="satenstein_promtheta" value="6" />
+			<variable name="satenstein_adaptwalkprob" value="0" />
+			<variable name="satenstein_adaptpromwalkprob" value="0" />
+			<variable name="satenstein_alpha" value="1.126" />
+			<variable name="satenstein_rho" value="0.17" />
+			<variable name="satenstein_ps" value="0.40" />
+			<variable name="satenstein_promnovnoise" value="0.50" />
+			<variable name="satenstein_maxinc" value="10" />
+			<variable name="satenstein_pflat" value="0.15" />                                        
+    </seedgenome> 
+	<seedgenome>	<!-- , SATenstein Hgen -->
+        	<variable name="root" value="0" />
+        	<variable name="solver" value="SATenstein" />
+        	<variable name="satenstein_root" value="0" />
+		  	<variable name="satenstein_novnoise" value="0.50" />        
+			<variable name="satenstein_selectclause" value="1" />
+			<variable name="satenstein_wp" value="0.01" />
+			<variable name="satenstein_tabu" value="10" />
+			<variable name="satenstein_wpwalk" value="0.50" />
+			<variable name="satenstein_s" value="0.01" />
+			<variable name="satenstein_c" value="0.01" />
+			<variable name="satenstein_dp" value="0.05" />
+			<variable name="satenstein_promdp" value="0.05" />
+			<variable name="satenstein_promwp" value="0.01" />
+			<variable name="satenstein_rwp" value="0.01" />
+			<variable name="satenstein_rwpwalk" value="0.50" />
+			<variable name="satenstein_rdp" value="0.15" />
+			<variable name="satenstein_rfp" value="0.05" />
+			<variable name="satenstein_adaptive" value="1" />
+			<variable name="satenstein_adaptiveprom" value="0" />
+			<variable name="satenstein_promisinglist" value="0" />
+			<variable name="satenstein_singleclause" value="1" />
+			<variable name="satenstein_performrandomwalk" value="1" />
+			<variable name="satenstein_performalternatenovelty" value="0" />
+			<variable name="satenstein_tabusearch" value="0" />
+			<variable name="satenstein_clausepen" value="0" />
+			<variable name="satenstein_varinfalse" value="1" />
+			<variable name="satenstein_heuristic" value="7" />
+			<variable name="satenstein_randomwalk" value="3" />
+			<variable name="satenstein_tiebreaking" value="1" />
+			<variable name="satenstein_updateschemepromlist" value="1" />
+			<variable name="satenstein_adaptivenoisescheme" value="1" />
+			<variable name="satenstein_scoringmeasure" value="1" />
+			<variable name="satenstein_smoothingscheme" value="1" />
+			<variable name="satenstein_decreasingvariable" value="2" />
+			<variable name="satenstein_phi" value="10" />
+			<variable name="satenstein_theta" value="3" />
+			<variable name="satenstein_promphi" value="5" />
+			<variable name="satenstein_promtheta" value="6" />
+			<variable name="satenstein_adaptwalkprob" value="0" />
+			<variable name="satenstein_adaptpromwalkprob" value="0" />
+			<variable name="satenstein_alpha" value="1.3" />
+			<variable name="satenstein_rho" value="0.8" />
+			<variable name="satenstein_ps" value="0.40" />
+			<variable name="satenstein_promnovnoise" value="0.50" />
+			<variable name="satenstein_maxinc" value="10" />
+			<variable name="satenstein_pflat" value="0.15" />                                        
+    </seedgenome> 
+    <seedgenome>	<!-- , SATenstein Swgcp -->
+        	<variable name="root" value="0" />
+        	<variable name="solver" value="SATenstein" />
+        	<variable name="satenstein_root" value="0" />
+		  	<variable name="satenstein_novnoise" value="0.1" />        
+			<variable name="satenstein_selectclause" value="1" />
+			<variable name="satenstein_wp" value="0.01" />
+			<variable name="satenstein_tabu" value="10" />
+			<variable name="satenstein_wpwalk" value="0.50" />
+			<variable name="satenstein_s" value="0.01" />
+			<variable name="satenstein_c" value="0.01" />
+			<variable name="satenstein_dp" value="0.05" />
+			<variable name="satenstein_promdp" value="0.05" />
+			<variable name="satenstein_promwp" value="0.01" />
+			<variable name="satenstein_rwp" value="0.01" />
+			<variable name="satenstein_rwpwalk" value="0.50" />
+			<variable name="satenstein_rdp" value="0.01" />
+			<variable name="satenstein_rfp" value="0.05" />
+			<variable name="satenstein_adaptive" value="0" />
+			<variable name="satenstein_adaptiveprom" value="0" />
+			<variable name="satenstein_promisinglist" value="0" />
+			<variable name="satenstein_singleclause" value="1" />
+			<variable name="satenstein_performrandomwalk" value="1" />
+			<variable name="satenstein_performalternatenovelty" value="0" />
+			<variable name="satenstein_tabusearch" value="0" />
+			<variable name="satenstein_clausepen" value="0" />
+			<variable name="satenstein_varinfalse" value="1" />
+			<variable name="satenstein_heuristic" value="1" />
+			<variable name="satenstein_randomwalk" value="3" />
+			<variable name="satenstein_tiebreaking" value="1" />
+			<variable name="satenstein_updateschemepromlist" value="1" />
+			<variable name="satenstein_adaptivenoisescheme" value="1" />
+			<variable name="satenstein_scoringmeasure" value="1" />
+			<variable name="satenstein_smoothingscheme" value="1" />
+			<variable name="satenstein_decreasingvariable" value="2" />
+			<variable name="satenstein_phi" value="5" />
+			<variable name="satenstein_theta" value="6" />
+			<variable name="satenstein_promphi" value="5" />
+			<variable name="satenstein_promtheta" value="6" />
+			<variable name="satenstein_adaptwalkprob" value="0" />
+			<variable name="satenstein_adaptpromwalkprob" value="0" />
+			<variable name="satenstein_alpha" value="1.3" />
+			<variable name="satenstein_rho" value="0.8" />
+			<variable name="satenstein_ps" value="0.40" />
+			<variable name="satenstein_promnovnoise" value="0.50" />
+			<variable name="satenstein_maxinc" value="10" />
+			<variable name="satenstein_pflat" value="0.15" />                                        
+    </seedgenome> 
+    <node type="and" name="root" start="0" end="0">
+    	<node type="or" name="solver" prefix=" " categories="SATenstein" categorical="true"> 
+			<node type="and" name="satenstein_root" start="0" end="0"> <!-- , SATenstein -->
+				<node type="and" name="satenstein_novnoise" prefix="-novnoise " start="0.0" end="1.0" />
+               	<node type="and" name="satenstein_selectclause" prefix="-selectclause " categories="1,7" categorical="true" />
+               	<node type="and" name="satenstein_wp" prefix="-wp " start="0.0" end="1.0" />
+               	<node type="and" name="satenstein_tabu" prefix="-tabu " start="1" end="20" />
+				<node type="and" name="satenstein_wpwalk" prefix="-wpwalk " start="0.0" end="1.0" />
+				<node type="and" name="satenstein_s" prefix="-s " start="0.001" end="0.1" />
+				<node type="and" name="satenstein_c" prefix="-c " start="0.00000001" end="0.1" />
+				<node type="and" name="satenstein_dp" prefix="-dp " start="0.0" end="1.0" />
+				<node type="and" name="satenstein_promdp" prefix="-promdp " start="0.0" end="1.0" />
+				<node type="and" name="satenstein_promwp" prefix="-promwp " start="0.0" end="1.0" />
+				<node type="and" name="satenstein_rwp" prefix="-rwp " start="0.0" end="1.0" />
+				<node type="and" name="satenstein_rwpwalk" prefix="-rwpwalk " start="0.0" end="1.0" />
+				<node type="and" name="satenstein_rdp" prefix="-rdp " start="0.0" end="1.0" />
+				<node type="and" name="satenstein_rfp" prefix="-rfp " start="0.0" end="1.0" />
+				<node type="and" name="satenstein_adaptive" prefix="-adaptive " categories="0,1" categorical="true" />
+				<node type="and" name="satenstein_adaptiveprom" prefix="-adaptiveprom " categories="0,1" categorical="true" />
+				<node type="and" name="satenstein_promisinglist" prefix="-promisinglist " categories="0,1" categorical="true" />
+				<node type="and" name="satenstein_singleclause" prefix="-singleclause " categories="0,1" categorical="true" />
+				<node type="and" name="satenstein_performrandomwalk" prefix="-performrandomwalk " categories="0,1" categorical="true" />
+				<node type="and" name="satenstein_performalternatenovelty" prefix="-performalternatenovelty " categories="0,1" categorical="true" />
+				<node type="and" name="satenstein_tabusearch" prefix="-tabusearch " categories="0,1" categorical="true" />
+				<node type="and" name="satenstein_clausepen" prefix="-clausepen " categories="0,1" categorical="true" />
+				<node type="and" name="satenstein_varinfalse" prefix="-varinfalse " categories="1" categorical="true" />
+				<node type="and" name="satenstein_heuristic" prefix="-heuristic " categories="1,2,3,4,5,6,7,8,9,10,11,12,3" categorical="true" />
+				<node type="and" name="satenstein_randomwalk" prefix="-randomwalk " categories="1,3,4,5" categorical="true" />
+				<node type="and" name="satenstein_tiebreaking" prefix="-tiebreaking " categories="1,2,3,4" categorical="true" />
+				<node type="and" name="satenstein_updateschemepromlist" prefix="-updateschemepromlist " categories="1,2,3" categorical="true" />
+				<node type="and" name="satenstein_adaptivenoisescheme" prefix="-adaptivenoisescheme " categories="1,2" categorical="true" />
+				<node type="and" name="satenstein_scoringmeasure" prefix="-scoringmeasure " categories="1,2,3" categorical="true" />
+				<node type="and" name="satenstein_smoothingscheme" prefix="-smoothingscheme " categories="1,2" categorical="true" />
+				<node type="and" name="satenstein_decreasingvariable" prefix="-decreasingvariable " categories="1,2,3,4,5,6,7,8,9,10,11" categorical="true" />
+				<node type="and" name="satenstein_phi" prefix="-phi " start="3" end="10" />
+            	<node type="and" name="satenstein_theta" prefix="-theta " start="3" end="10" />
+               	<node type="and" name="satenstein_promphi" prefix="-promphi " start="3" end="10" />
+              	<node type="and" name="satenstein_promtheta" prefix="-promtheta " start="3" end="10" />
+            	<node type="and" name="satenstein_adaptwalkprob" prefix="-adaptwalkprob " categories="0,1" categorical="true" />
+               	<node type="and" name="satenstein_adaptpromwalkprob" prefix="-adaptpromwalkprob " categories="0,1" categorical="true" />
+            	<node type="and" name="satenstein_alpha" prefix="-alpha " start="1.0" end="1.5" />
+             	<node type="and" name="satenstein_rho" prefix="-rho " start="0.01" end="1.0" />
+               	<node type="and" name="satenstein_ps" prefix="-ps " start="0.0" end="1.0" />
+               	<node type="and" name="satenstein_promnovnoise" prefix="-promnovnoise " start="0.0" end="1.0" />
+				<node type="and" name="satenstein_maxinc" prefix="-tabu " start="5" end="20" />
+				<node type="and" name="satenstein_pflat" prefix="-pflat " start="0.0" end="1.0" /> 
+			</node>
+    	</node>
+	</node>
+</algtune>

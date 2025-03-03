@@ -1,0 +1,10 @@
+algo = python3 -u ./target_algorithms/sat/cryptominisat-cssc14/wrapper.py --mem-limit 3000 --sat-checker ./target_algorithms/sat/tools/SAT --sol-file ./instances/sat/sets/GI-CSSC14/solubility.txt
+execdir = .
+deterministic = 0
+run_obj = runtime
+wallclock_limit = 172800
+cutoff_time = 300
+paramfile = ./target_algorithms/sat/cryptominisat-cssc14/params.pcs
+instance_file = ./instances/sat/sets/GI-CSSC14/training.txt
+test_instance_file = ./instances/sat/sets/GI-CSSC14/test.txt
+feature_file = ./instances/sat/sets/GI-CSSC14/features.txt

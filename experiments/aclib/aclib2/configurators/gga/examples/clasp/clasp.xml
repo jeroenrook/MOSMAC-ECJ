@@ -1,0 +1,49 @@
+<algtune> <!-- Note: this is not a full modelling of clasp's parameters, just a subset to illustrate how GGA works -->
+    <cmd>
+        ./clasp_wrapper.py $instance $seed $heuristic $initmoms $scoreother $signdef $restarts $fn $ln $xn $xf $an $am $dn $df
+    </cmd>
+    <seedgenome> <!-- The maximum number of seedgenomes is the size of the initial population -->
+			<variable name="root" value="0" />                                        
+			<variable name="heuristic" value="Berkmin" />                                        
+			<variable name="initmoms" value="0" />                                        
+			<variable name="scoreother" value="1" />                                        
+			<variable name="signdef" value="2" />                                        
+			<variable name="restarts" value="L" />                                        
+			<variable name="fn" value="500" />                                        
+			<variable name="ln" value="12" />                                        
+			<variable name="georoot" value="0" />                                        
+			<variable name="xn" value="100" />                                        
+			<variable name="xf" value="2.12" />                                        
+			<variable name="arithroot" value="0" />                                        
+			<variable name="an" value="300" />                                        
+			<variable name="am" value="55" />                                        
+			<variable name="droot" value="0" />                                        
+			<variable name="dn" value="75" />                                        
+			<variable name="df" value="3.45" />                                        
+			<variable name="nodummy" value="0" />                                        
+    </seedgenome>
+    <node type="and" name="root" start="0" end="0">
+        <node type="and" name="heuristic" prefix="heuristic=" categories="Berkmin,Vmtf,Vsids,Unit,None" />
+        <node type="and" name="initmoms" prefix="init-moms=" categories="0,1" />
+        <node type="and" name="scoreother" prefix="score-other=" start="0" end="2" />
+        <node type="and" name="signdef" prefix="sign-def=" start="0" end="3" />
+        <node type="or" name="restarts" prefix="restarts=" categories="F,L,x,+,D,no"> <!-- note that the lim parameter is ignored -->
+            <node type="and" name="fn" prefix="fn=" start="1" end="10000" />
+            <node type="and" name="ln" prefix="ln=" start="1" end="10000" />
+            <node type="and" name="georoot" prefix="" start="0" end="0"> <!-- this is just a dummy node to collect several independent parameters in an OR branch -->
+                <node type="and" name="xn" prefix="xn=" start="1" end="10000" />
+                <node type="and" name="xf" prefix="xf=" start="1.0" end="1000.0" /> <!-- Example of a floating point range -->
+            </node>
+            <node type="and" name="arithroot" prefix="" start="0" end="0">
+                <node type="and" name="an" prefix="an=" start="1" end="10000" />
+                <node type="and" name="am" prefix="am=" start="0" end="10000" />
+            </node>
+            <node type="and" name="droot" prefix="" start="0" end="0">
+                <node type="and" name="dn" prefix="an=" start="1" end="10000" />
+                <node type="and" name="df" prefix="df=" start="1.0" end="1000.0" />
+            </node>
+            <node type="and" name="nodummy" prefix="" start="0" end="0" /> <!-- every OR branch needs a node, even if the branch doesn't have any parameters -->
+        </node>
+    </node>
+</algtune>
+

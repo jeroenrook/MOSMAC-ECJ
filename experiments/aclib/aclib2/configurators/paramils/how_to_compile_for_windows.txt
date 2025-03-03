@@ -1,0 +1,1 @@
+Compile as follows using rubyscript2exe.rb:ruby rubyscript2exe.rb >ruby param_ils_2_3_run.rb  -numRun 0 -scenariofile example_saps\scenario-win-Saps-SWGCP-sat-small-train-small-test.txt -validN 1

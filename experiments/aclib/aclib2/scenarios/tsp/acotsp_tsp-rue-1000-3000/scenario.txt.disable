@@ -1,0 +1,10 @@
+algo = python -u ./target_algorithms/tsp/acotsp/wrapper.py --mem-limit 3000 
+execdir = .
+deterministic = 0
+run_obj = quality
+overall_obj = mean
+cutoff_time = 20
+instance_file = ./instances/tsp/sets/tsp-rue-1000-3000/training.txt
+test_instance_file = ./instances/tsp/sets/tsp-rue-1000-3000/test.txt
+paramfile = ./target_algorithms/tsp/acotsp/params.pcs
+runcount_limit = 20000

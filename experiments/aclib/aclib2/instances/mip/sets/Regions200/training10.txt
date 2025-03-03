@@ -1,0 +1,10 @@
+instances/mip/data/Regions200/CATS-d_regions-goods200-bids1000_1381.lp
+instances/mip/data/Regions200/CATS-d_regions-goods200-bids1000_1198.lp
+instances/mip/data/Regions200/CATS-d_regions-goods200-bids1000_1560.lp
+instances/mip/data/Regions200/CATS-d_regions-goods200-bids1000_0916.lp
+instances/mip/data/Regions200/CATS-d_regions-goods200-bids1000_0616.lp
+instances/mip/data/Regions200/CATS-d_regions-goods200-bids1000_1318.lp
+instances/mip/data/Regions200/CATS-d_regions-goods200-bids1000_0100.lp
+instances/mip/data/Regions200/CATS-d_regions-goods200-bids1000_1384.lp
+instances/mip/data/Regions200/CATS-d_regions-goods200-bids1000_0089.lp
+instances/mip/data/Regions200/CATS-d_regions-goods200-bids1000_1791.lp

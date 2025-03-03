@@ -1,0 +1,6 @@
+[submodule "SMAC3"]
+	path = SMAC3
+	url = https://github.com/jeroenrook/SMAC3.git
+[submodule "random_forest_run"]
+	path = random_forest_run
+	url = git@github.com:jeroenrook/random_forest_run.git

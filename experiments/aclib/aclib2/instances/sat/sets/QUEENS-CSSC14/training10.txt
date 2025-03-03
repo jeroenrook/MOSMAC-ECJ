@@ -1,0 +1,10 @@
+instances/sat/data/QUEENS-CSSC14/instances/Sat_Data/nqueen/nqueen_32_1_0_0_0_bimander.cnf
+instances/sat/data/QUEENS-CSSC14/instances/Sat_Data/nqueen/nqueen_43_0_0_1_1_nested.cnf
+instances/sat/data/QUEENS-CSSC14/instances/Sat_Data/nqueen/nqueen_29_1_0_0_0_pairwise.cnf
+instances/sat/data/QUEENS-CSSC14/instances/Sat_Data/nqueen/nqueen_44_0_0_1_1_2product.cnf
+instances/sat/data/QUEENS-CSSC14/instances/Sat_Data/nqueen/nqueen_26_0_1_1_1_pairwise.cnf
+instances/sat/data/QUEENS-CSSC14/instances/Sat_Data/nqueen/nqueen_25_0_1_0_0_pairwise.cnf
+instances/sat/data/QUEENS-CSSC14/instances/Sat_Data/nqueen/nqueen_22_1_1_0_0_nested.cnf
+instances/sat/data/QUEENS-CSSC14/instances/Sat_Data/nqueen/nqueen_30_0_1_1_1_pairwise.cnf
+instances/sat/data/QUEENS-CSSC14/instances/Sat_Data/nqueen/nqueen_31_1_0_1_1_pairwise.cnf
+instances/sat/data/QUEENS-CSSC14/instances/Sat_Data/nqueen/nqueen_10_0_0_0_1_pairwise.cnf

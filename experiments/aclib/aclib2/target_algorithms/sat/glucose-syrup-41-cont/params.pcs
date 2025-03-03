@@ -1,0 +1,28 @@
+rinc  [1.1,4][2]
+cla-decay [0.9,0.99999][0.999]l
+max-var-decay [0.9,0.99999][0.95]
+var-decay [0.6,0.99999][0.8]
+phase-restart [0,1][0]i
+phase-saving [0,2][2]i
+ccmin-mode [0,2][2]i
+minLBDMinimizingClause [3,20][6]i
+minSizeMinimizingClause [3,100][30]i
+specialIncReduceDB [10,100000][1000]il
+minLBDFrozenClause [10,1000][30]il
+firstReduceDB [100,10000][2000]il
+incReduceDB [100,10000][300]il
+R [1,5][1.4]
+K [0.5,0.99999][0.8]
+szTrailQueue [100,100000][5000]il
+szLBDQueue [10,1024][50]il
+simp-gc-frac [0.1,0.9][0.5]
+grow [0,10][0]i
+cl-lim [1,128][20]i
+sub-lim [100,10000][1000]i
+
+ratio-rem-clauses [1.1,10] [2]
+step-inc-var-decay [0.000001, 0.1] [0.01]
+lower-block-restart [100,100000] [10000]
+good-cl-thresh [1,30] [3]
+freq-inc-var-decay [1, 1000000] [5000]
+

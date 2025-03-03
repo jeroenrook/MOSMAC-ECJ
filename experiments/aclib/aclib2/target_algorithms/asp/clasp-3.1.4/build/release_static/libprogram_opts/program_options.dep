@@ -1,0 +1,5 @@
+program_options.o: ../../../libprogram_opts/src/program_options.cpp \
+ ../../../libprogram_opts/program_opts/program_options.h \
+ ../../../libprogram_opts/program_opts/value.h \
+ ../../../libprogram_opts/program_opts/detail/refcountable.h \
+ ../../../libprogram_opts/program_opts/errors.h

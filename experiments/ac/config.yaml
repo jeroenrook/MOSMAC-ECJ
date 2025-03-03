@@ -1,0 +1,11 @@
+name: mosmac_ac
+expdir: out/
+targetdir: results/
+sbatch_array_limit: 1024
+sbatch:
+#  partition: graceCPU
+  nodes: 1
+  ntasks: 1
+  mem: 8gb
+  cpus-per-task: 2
+  exclusive: user

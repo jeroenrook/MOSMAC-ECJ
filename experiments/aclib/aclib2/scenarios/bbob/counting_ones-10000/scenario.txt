@@ -1,0 +1,6 @@
+instance_file = instances/bbob/sets/ones/training.txt
+test_instance_file = instances/bbob/sets/ones/test.txt
+runObj = quality
+runcount_limit = 10000000
+pcs-file = target_algorithms/bbob/counting_ones-10000/params.pcs
+algo = python3 target_algorithms/bbob/counting_ones-10000/counting_ones.py

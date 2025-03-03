@@ -1,0 +1,10 @@
+numFolds=10:fold=0
+numFolds=10:fold=1
+numFolds=10:fold=2
+numFolds=10:fold=3
+numFolds=10:fold=4
+numFolds=10:fold=5
+numFolds=10:fold=6
+numFolds=10:fold=7
+numFolds=10:fold=8
+numFolds=10:fold=9

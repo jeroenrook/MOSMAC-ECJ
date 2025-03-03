@@ -1,0 +1,1 @@
+Experiment from SATenstein: Automatically Building Local Search SAT Solvers From Components . A. R. KhudaBukhsh, L. Xu, H. H. Hoos, K. Leyton-Brown - Twenty-First International Joint Conference on Artificial Intelligence (IJCAI-09), 2009.
