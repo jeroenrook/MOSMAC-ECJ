@@ -1,0 +1,16 @@
+/experiments/moproblems/output/
+/archive/
+/experiments/aclib/results/
+/experiments/ac/results/
+/experiments/ac/results_full/
+/test/
+
+__pycache__
+/experiments/domination/
+/experiments/intensification/output/
+/experiments/intensification/output2/
+.DS_Store
+*.pdf
+*.csv
+*.tex
+results*
